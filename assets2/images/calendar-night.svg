@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/utility/ui-night/calendar-night</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24.3835949,7.45391207 L24.3835949,2 L20.6501121,2 L20.6501121,7.45391207 L11.3169656,7.45391207 L11.3169656,2 L7.58348282,2 L7.58348282,7.45391207 L3.85,7.45391207 L3.85,30 L28.1165172,30 L28.1165172,7.45391207 L24.3830344,7.45391207 L24.3835949,7.45391207 Z M24.3835949,26.2665172 L7.58348282,26.2665172 L7.58348282,14.9208777 L24.3835949,14.9208777 L24.3835949,26.2665172 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/utility/ui-night/calendar-night" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Shape" fill-rule="nonzero"></g>
+        <g id="colors/white/snow-ffffff" mask="url(#mask-2)" fill="#FFFFFF">
+            <rect id="Brand-Color" x="0" y="0" width="32" height="32"></rect>
+        </g>
+    </g>
+</svg>

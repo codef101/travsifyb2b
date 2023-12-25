@@ -1,0 +1,173 @@
+[
+  {
+      "icon": "fas fa-th-large",
+      "title": "App.menu_dashboard",
+      "url": "dashboard",
+      "external": false,
+      "children": [],
+      "permission_controller" : ""
+  },
+  {
+      "divider": "PRODUCTS",
+      "type" : "User"
+  },
+  {
+    "icon": "fas fa-plane",
+    "title": "Flights",
+    "url": "flights",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Flights"
+  },
+  {
+    "icon": "fas fa-hotel",
+    "title": "Hotels",
+    "url": "hotels",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Hotels"
+  },
+  {
+    "icon": "fas fa-money-bill",
+    "title": "Balance",
+    "url": "balance",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Balance"
+  },
+  {
+    "icon": "fas fa-code",
+    "title": "Developers",
+    "url": "developers",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Developers"
+  },
+  {
+      "divider": "App.menu_registration",
+      "type" : "Admin"
+  },
+  {
+    "icon": "fas fa-user-friends",
+    "title": "App.menu_users",
+    "url": "",
+    "external": false,
+    "children": [
+      {
+        "title": "App.menu_list",
+        "url": "user",
+        "external": false
+      },
+      {
+        "title": "App.menu_add",
+        "url": "user/add",
+        "external": false
+      }
+    ],
+    "permission_controller" : "User"
+  },
+  {
+    "icon": "fas fa-user-lock",
+    "title": "App.menu_permission_group",
+    "url": "",
+    "external": false,
+    "children": [
+      {
+        "title": "App.menu_list",
+        "url": "group",
+        "external": false
+      },
+      {
+        "title": "App.menu_add",
+        "url": "group/add",
+        "external": false
+      }
+    ],
+    "permission_controller" : "Group"
+  },
+  {
+    "icon": "fas fa-bell",
+    "title": "App.menu_notification",
+    "url": "",
+    "external": false,
+    "children": [
+      {
+        "title": "App.menu_list",
+        "url": "notification",
+        "external": false
+      },
+      {
+        "title": "App.menu_add",
+        "url": "notification/add",
+        "external": false
+      }
+    ],
+    "permission_controller" : "Notification"
+  },
+  {
+    "divider": "App.menu_settings",
+    "type" : "Admin"
+  },
+  {
+    "icon": "fas fa-sliders-h",
+    "title": "App.menu_general",
+    "url": "settings",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Settings"
+  },
+  {
+    "icon": "fas fa-user-shield",
+    "title": "App.menu_oauth",
+    "url": "settings/oauth",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Settings"
+  },
+  {
+    "icon": "fas fa-mail-bulk",
+    "title": "App.menu_template",
+    "url": "settings/template",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Settings"
+  },
+  {
+    "icon": "fas fa-plug",
+    "title": "App.menu_modules",
+    "url": "settings/module",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Settings"
+  },
+  {
+    "divider": "App.menu_modules"
+  },
+  {
+    "divider": "Others"
+  },
+  {
+    "icon": "fas fa-list",
+    "title": "App.menu_activity",
+    "url": "activity",
+    "external": false,
+    "children": [],
+    "permission_controller" : "Activity"
+  },
+  {
+    "icon": "fas fa-book",
+    "title": "Documentation",
+    "url": "documentation",
+    "external": true,
+    "children": [],
+    "permission_controller" : ""
+  },
+  {
+    "icon": "fas fa-sign-out-alt",
+    "title": "App.menu_logout",
+    "url": "login/logout",
+    "external": false,
+    "children": [],
+    "permission_controller" : ""
+  }
+]
