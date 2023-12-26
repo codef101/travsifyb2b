@@ -2,7 +2,7 @@
 $settings = session()->get('settings');
 ?>
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -1762,7 +1762,7 @@ $settings = session()->get('settings');
                 <div class="container"><hgf-regionselector></hgf-regionselector>
                     <div class="page-footer_content">
                         <div class="page-footer_legal">
-                            <p>© Copyright 2023 Salesforce, Inc. <a href="/company/legal/intellectual/" adhocenable="false">Alle rechten voorbehouden</a>. De diverse handelsmerken zijn eigendom van de respectieve eigenaren. SFDC Netherlands BV, Gustav Mahlerlaan 2970, 1081 LA, Amsterdam, Nederland | Telefoon: 0800 020 0431</p>
+                            <p>© Copyright 2023 Travsify Global Inc.  <a href="/company/legal/intellectual/" adhocenable="false">All rights reserved</a>.| 635 Pine Ave, Pacific Grove, California, U.S.A. |  +12134686786 </p>
                         </div>
                         <nav class="page-footer_links mobile-display">
                             <ul class="page-footer_links_list">
@@ -1782,24 +1782,11 @@ $settings = session()->get('settings');
         </footer>
     </hgf-footer>
 
-
-
-
     <div class="sf-call">
         <div class="call-btn-wrapper">
-
-
-
-
-
-
-
-
-
             <a class="btn" href="tel:0800 020 0431" aria-label="Contact, Telefoonnummer"></a>
         </div>
     </div>
-
 
     <script type="text/javascript">
         window.document.dispatchEvent(
