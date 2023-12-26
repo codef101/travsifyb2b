@@ -423,7 +423,7 @@ $settings = session()->get('settings');
                         <div class="image__wrapper">
 
 
-                            <img loading="eager" src="assets2/images/home-1.jpg" class="image__asset" alt="De Salesforce-personages Genie en Einstein, samen met een Salesforce-klant rondom het Customer 360 wiel." sizes="100vw" srcset="assets2/images/home-1.jpg 150w, assets2/images/home-1.jpg 300w, assets2/images/home-1.jpg 768w, assets2/images/home-1.jpg 1024w" height="1024" width="1024">
+                            <img style="border-radius: 40%" loading="eager" src="assets2/images/home-1.jpg" class="image__asset" alt="De Salesforce-personages Genie en Einstein, samen met een Salesforce-klant rondom het Customer 360 wiel." sizes="100vw" srcset="assets2/images/home-1.jpg 150w, assets2/images/home-1.jpg 300w, assets2/images/home-1.jpg 768w, assets2/images/home-1.jpg 1024w" height="1024" width="1024">
 
 
                         </div>
@@ -500,7 +500,7 @@ $settings = session()->get('settings');
                                     <div class="card__image__wrapper">
                                         <a href="/nl/form/starter/overview-demo/?d=pb" tabindex="-1" aria-label="Maak kennis met Salesforce Starter: de eenvoudige, krachtige CRM-suite." data-link-url="/nl/form/starter/overview-demo/?d=pb" data-link-type="image" target="">
 
-                                            <img loading="lazy" src="assets2/images/home2.jpeg" class="card__image" alt="Het Salesforce-karakter Astro loopt voor een Salesforce-productscherm, met een profielfoto van het Salesforce-karakter Einstein." sizes="100vw" srcset="assets2/images/n-up-news-starter-uma_3.jpeg 150w, assets2/images/n-up-news-starter-uma_1.jpeg 300w, assets2/images/n-up-news-starter-uma_2.jpeg 768w" height="auto" width="auto">
+                                            <img loading="lazy" src="assets2/images/home-2.jpg" class="card__image" alt="Het Salesforce-karakter Astro loopt voor een Salesforce-productscherm, met een profielfoto van het Salesforce-karakter Einstein." sizes="100vw" srcset="assets2/images/home-2.jpg 150w, assets2/images/home-2.jpg 300w, assets2/images/home-2.jpg 768w" height="auto" width="auto">
 
                                         </a>
                                     </div>
@@ -540,7 +540,7 @@ $settings = session()->get('settings');
                                     <div class="card__image__wrapper">
                                         <a href="https://travsifyb2b.com/blog/category/sales/" tabindex="-1" aria-label="Word een Salesblazer." data-link-url="https://travsifyb2b.com/blog/category/sales/" data-link-type="image" target="">
 
-                                            <img loading="lazy" src="assets2/images/n-up-news-salesblazers-zig.jpg" class="card__image" alt="Twee Salesblazers met hoodies poseren naast Salesforce karakter Zig." sizes="100vw" srcset="assets2/images/n-up-news-salesblazers-zig_1.jpg 150w, assets2/images/n-up-news-salesblazers-zig_3.jpg 300w, assets2/images/n-up-news-salesblazers-zig_2.jpg 768w, assets2/images/n-up-news-salesblazers-zig_4.jpg 1024w" height="auto" width="auto">
+                                            <img loading="lazy" src="assets2/images/home-3.jpg" class="card__image" alt="Twee Salesblazers met hoodies poseren naast Salesforce karakter Zig." sizes="100vw" srcset="assets2/images/home-3.jpg 150w, assets2/images/home-3.jpg 300w, assets2/images/home-3.jpg 768w, assets2/images/home-3.jpg 1024w" height="auto" width="auto">
 
                                         </a>
                                     </div>
@@ -579,7 +579,7 @@ $settings = session()->get('settings');
                                     <div class="card__image__wrapper">
                                         <a href="/nl/solutions/small-business-solutions/overview/" tabindex="-1" aria-label="Well crafted documentation" data-link-url="/nl/solutions/small-business-solutions/overview/" data-link-type="image" target="">
 
-                                            <img loading="lazy" src="assets2/images/n-up-news-ai-data-crm-1.jpg" class="card__image" alt="Een vrouwelijke ondernemer houdt een tablet vast. Naast haar staat het Salesforce-karakter Einstein door een verrekijker te kijken." sizes="100vw" srcset="assets2/images/n-up-news-ai-data-crm-1_1.jpg 150w, assets2/images/n-up-news-ai-data-crm-1_2.jpg 300w, assets2/images/n-up-news-ai-data-crm-1_3.jpg 768w, assets2/images/n-up-news-ai-data-crm-1_4.jpg 1024w" height="auto" width="auto">
+                                            <img loading="lazy" src="assets2/images/home-4.jpg" class="card__image" alt="Een vrouwelijke ondernemer houdt een tablet vast. Naast haar staat het Salesforce-karakter Einstein door een verrekijker te kijken." sizes="100vw" srcset="assets2/images/home-4.jpg 150w, assets2/images/home-4.jpg 300w, assets2/images/home-4.jpg 768w, assets2/images/home-4.jpg 1024w" height="auto" width="auto">
 
                                         </a>
                                     </div>
@@ -650,7 +650,7 @@ $settings = session()->get('settings');
                                     <div class="card__content__wrapper flex flex--column">
                                         <div class="card__image__wrapper">
 
-                                            <img loading="lazy" src="assets2/images/php-products-smb.jpg" class="card__image" alt="Een MKB'er" sizes="100vw" srcset="assets2/images/php-products-smb_1.jpg 150w, assets2/images/php-products-smb_2.jpg 300w, assets2/images/php-products-smb_3.jpg 768w" height="auto" width="auto">
+                                            <img style="max-height: 230px !important; border: 1px solid #eedddd80; padding: .5rem" loading="lazy" src="assets2/images/home-5.jpg" class="card__image" alt="Een MKB'er" sizes="100vw" srcset="assets2/images/home-5.jpg 150w, assets2/images/home-5.jpg 300w, assets2/images/home-5.jpg 768w" height="auto" width="auto">
 
                                         </div>
                                         <div class="card__content__wrapper">
@@ -693,7 +693,7 @@ $settings = session()->get('settings');
                                     <div class="card__content__wrapper flex flex--column">
                                         <div class="card__image__wrapper">
 
-                                            <img loading="lazy" src="assets2/images/php-products-sales.jpg" class="card__image" alt="Een salesprofessional met statistieken die +29% sales productiviteit laten zien" sizes="100vw" srcset="assets2/images/php-products-sales_1.jpg 150w, assets2/images/php-products-sales_2.jpg 295w, assets2/images/php-products-sales_3.jpg 768w" height="auto" width="auto">
+                                            <img loading="lazy" src="assets2/images/home-7.jpg" class="card__image" alt="Een salesprofessional met statistieken die +29% sales productiviteit laten zien" sizes="100vw" srcset="assets2/images/home-7.jpg 150w, assets2/images/home-7.jpg 295w, assets2/images/home-7.jpg 768w" height="auto" width="auto">
 
                                         </div>
                                         <div class="card__content__wrapper">
@@ -737,7 +737,7 @@ $settings = session()->get('settings');
                                     <div class="card__content__wrapper flex flex--column">
                                         <div class="card__image__wrapper">
 
-                                            <img loading="lazy" src="assets2/images/php-products-service.webp" class="card__image" alt="Een serviceprofessional met statistiek die -27% supportkosten laat zien" sizes="100vw" srcset="assets2/images/php-products-service_1.webp 150w, assets2/images/php-products-service_2.webp 300w, assets2/images/php-products-service_3.webp 768w" height="auto" width="auto">
+                                            <img style="min-height: 230px !important;    border: 1px solid #eedddd80;    padding: .5rem;" loading="lazy" src="assets2/images/home-81.jpg" class="card__image" alt="Een serviceprofessional met statistiek die -27% supportkosten laat zien" sizes="100vw" srcset="assets2/images/home-81.jpg 150w, assets2/images/home-81.jpg 300w, assets2/images/home-81.jpg 768w" height="auto" width="auto">
 
                                         </div>
                                         <div class="card__content__wrapper">
@@ -779,7 +779,7 @@ $settings = session()->get('settings');
                                     <div class="card__content__wrapper flex flex--column">
                                         <div class="card__image__wrapper">
 
-                                            <img loading="lazy" src="assets2/images/php-products-all-products.jpg" class="card__image" alt="Een Salesforce Trailblazer en Astro, een Salesforce mascotte" sizes="100vw" srcset="assets2/images/php-products-all-products_1.jpg 150w, assets2/images/php-products-all-products_2.jpg 300w, assets2/images/php-products-all-products_3.jpg 768w" height="auto" width="auto">
+                                            <img style="min-height: 230px !important; border: 1px solid #eedddd80; padding: .5rem;" loading="lazy" src="assets2/images/home-82.jpg" class="card__image" alt="Een Salesforce Trailblazer en Astro, een Salesforce mascotte" sizes="100vw" srcset="assets2/images/home-82.jpg 150w, assets2/images/home-82.jpg 300w, assets2/images/home-82.jpg 768w" height="auto" width="auto">
 
                                         </div>
                                         <div class="card__content__wrapper">
@@ -1274,7 +1274,7 @@ $settings = session()->get('settings');
                         <div class="image__wrapper">
 
 
-                            <img loading="lazy" src="assets2/images/php-rc-what-is-crm.jpg" class="image__asset" alt="Ontdek CRM en hoe het bedrijfsgroei stimuleert." sizes="100vw" srcset="assets2/images/php-rc-what-is-crm_1.jpg 150w, assets2/images/php-rc-what-is-crm_2.jpg 300w, assets2/images/php-rc-what-is-crm_3.jpg 768w, assets2/images/php-rc-what-is-crm_4.jpg 1024w, assets2/images/php-rc-what-is-crm_5.jpg 1536w" height="576" width="1024">
+                            <img loading="lazy" src="assets2/images/home-9.jpg" class="image__asset" alt="Ontdek CRM en hoe het bedrijfsgroei stimuleert." sizes="100vw" srcset="assets2/images/home-9.jpg 150w, assets2/images/home-9.jpg 300w, assets2/images/home-9.jpg 768w, assets2/images/home-9.jpg 1024w, assets2/images/home-9.jpg 1536w" height="576" width="1024">
 
                         </div>
 
@@ -1349,15 +1349,10 @@ $settings = session()->get('settings');
                             <article class="card card__1 card__wrapper " data-module-id="1680701969592_1em" data-module-name="Vind een evenement dat bij jou past." data-module-position="1" data-module-type="card_resource">
                                 <div class="card--card_resource pbc-g-elevation-2 flex border-rad-16 ">
 
-
-
-
-
-
                                     <div class="card__image__wrapper">
                                         <a href="/nl/events/?d=cta-events-overview" tabindex="-1" aria-label="Vind een evenement dat bij jou past." data-link-url="/nl/events/?d=cta-events-overview" data-link-type="image" target="">
 
-                                            <img loading="lazy" src="assets2/images/chp-news-bar-evergreen-events-1.jpg" class="card__image" alt="Ontdek alle Salesforce evenementen" sizes="100vw" srcset="assets2/images/chp-news-bar-evergreen-events-1_1.jpg 150w, assets2/images/chp-news-bar-evergreen-events-1_2.jpg 300w, assets2/images/chp-news-bar-evergreen-events-1_3.jpg 768w, assets2/images/chp-news-bar-evergreen-events-1_4.jpg 1024w" height="auto" width="auto">
+                                            <img loading="lazy" src="assets2/images/home-10.jpg" class="card__image" alt="Ontdek alle Salesforce evenementen" sizes="100vw" srcset="assets2/images/home-10.jpg 150w, assets2/images/home-10.jpg 300w, assets2/images/home-10.jpg 768w, assets2/images/home-10.jpg 1024w" height="auto" width="auto">
 
                                         </a>
                                     </div>
@@ -1405,9 +1400,6 @@ $settings = session()->get('settings');
 
                             <article class="card card__2 card__wrapper " data-module-id="1680701969616_1cxy" data-module-name="Aanjagers, de podcast voor mensen die durven te veranderen." data-module-position="2" data-module-type="card_resource">
                                 <div class="card--card_resource pbc-g-elevation-2 flex border-rad-16 ">
-
-
-
 
 
 
@@ -1560,7 +1552,7 @@ $settings = session()->get('settings');
                         <div class="image__wrapper">
 
 
-                            <img loading="lazy" src="assets2/images/php-appy-appexchange.jpg" class="image__asset" alt="Logo's van apppartners zelrose, conga en Tableau." sizes="100vw" srcset="assets2/images/php-appy-appexchange_1.jpg 150w, assets2/images/php-appy-appexchange_2.jpg 300w, assets2/images/php-appy-appexchange_4.jpg 768w, assets2/images/php-appy-appexchange_3.jpg 1024w" height="1024" width="1024">
+                            <img loading="lazy" src="assets2/images/home-10.jpg" class="image__asset" alt="Logo's van apppartners zelrose, conga en Tableau." sizes="100vw" srcset="assets2/images/home-10.jpg 150w, assets2/images/home-10.jpg 300w, assets2/images/home-10.jpg 768w, assets2/images/home-10.jpg 1024w" height="1024" width="1024">
 
 
                         </div>
@@ -1660,7 +1652,7 @@ $settings = session()->get('settings');
              ">
 
 
-                            <img loading="lazy" src="assets2/images/hp-newsletter-card.jpg" class="image__asset" alt="" sizes="100vw" srcset="assets2/images/hp-newsletter-card_1.jpg 150w, assets2/images/hp-newsletter-card_2.jpg 300w, assets2/images/hp-newsletter-card_3.jpg 768w, assets2/images/hp-newsletter-card_4.jpg 1024w" height="1024" width="1024">
+                            <img loading="lazy" src="assets2/images/home-11.jpg" class="image__asset" alt="" sizes="100vw" srcset="assets2/images/home-11.jpg 150w, assets2/images/home-11.jpg 300w, assets2/images/home-11.jpg 768w, assets2/images/home-11.jpg 1024w" height="1024" width="1024">
 
 
                         </div>
