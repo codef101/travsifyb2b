@@ -89,8 +89,7 @@ $settings = session()->get('settings');
     <script defer="" type="module" src="assets2/js/prod.f2188467.js"></script>
     <script defer="" type="text/javascript" src="assets2/js/templates.9af351a3.js"></script>
     <script defer="" type="text/javascript" src="assets2/js/nunjucks-slim.min.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/scripts.bd067cfb6df2342318f0.js"></script>
-
+    <script defer="" type="text/javascript" src="assets2/js/scripts.bd067cfb6df2342318f0.js"></script> 
 
     <script>
         (window.BOOMR_mq = window.BOOMR_mq || []).push(["addVar", {
@@ -111,122 +110,122 @@ $settings = session()->get('settings');
         }]);
     </script>
     <script>
-        ! function(e) {
-            var n = "https://s.go-mpulse.net/boomerang/";
-            if ("False" == "True") e.BOOMR_config = e.BOOMR_config || {}, e.BOOMR_config.PageParams = e.BOOMR_config.PageParams || {}, e.BOOMR_config.PageParams.pci = !0, n = "https://s2.go-mpulse.net/boomerang/";
-            if (window.BOOMR_API_key = "NCPYV-VGJPP-N4J93-8HN3B-8B6S3", function() {
-                    function e() {
-                        if (!o) {
-                            var e = document.createElement("script");
-                            e.id = "boomr-scr-as", e.src = window.BOOMR.url, e.async = !0, i.parentNode.appendChild(e), o = !0
-                        }
-                    }
+        // ! function(e) {
+        //     var n = "https://s.go-mpulse.net/boomerang/";
+        //     if ("False" == "True") e.BOOMR_config = e.BOOMR_config || {}, e.BOOMR_config.PageParams = e.BOOMR_config.PageParams || {}, e.BOOMR_config.PageParams.pci = !0, n = "https://s2.go-mpulse.net/boomerang/";
+        //     if (window.BOOMR_API_key = "NCPYV-VGJPP-N4J93-8HN3B-8B6S3", function() {
+        //             function e() {
+        //                 if (!o) {
+        //                     var e = document.createElement("script");
+        //                     e.id = "boomr-scr-as", e.src = window.BOOMR.url, e.async = !0, i.parentNode.appendChild(e), o = !0
+        //                 }
+        //             }
 
-                    function t(e) {
-                        o = !0;
-                        var n, t, a, r, d = document,
-                            O = window;
-                        if (window.BOOMR.snippetMethod = e ? "if" : "i", t = function(e, n) {
-                                var t = d.createElement("script");
-                                t.id = n || "boomr-if-as", t.src = window.BOOMR.url, BOOMR_lstart = (new Date).getTime(), e = e || d.body, e.appendChild(t)
-                            }, !window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]\./)) return window.BOOMR.snippetMethod = "s", void t(i.parentNode, "boomr-async");
-                        a = document.createElement("IFRAME"), a.src = "about:blank", a.title = "", a.role = "presentation", a.loading = "eager", r = (a.frameElement || a).style, r.width = 0, r.height = 0, r.border = 0, r.display = "none", i.parentNode.appendChild(a);
-                        try {
-                            O = a.contentWindow, d = O.document.open()
-                        } catch (_) {
-                            n = document.domain, a.src = "javascript:var d=document.open();d.domain='" + n + "';void(0);", O = a.contentWindow, d = O.document.open()
-                        }
-                        if (n) d._boomrl = function() {
-                            this.domain = n, t()
-                        }, d.write("<bo" + "dy onload='document._boomrl();'>");
-                        else if (O._boomrl = function() {
-                                t()
-                            }, O.addEventListener) O.addEventListener("load", O._boomrl, !1);
-                        else if (O.attachEvent) O.attachEvent("onload", O._boomrl);
-                        d.close()
-                    }
+        //             function t(e) {
+        //                 o = !0;
+        //                 var n, t, a, r, d = document,
+        //                     O = window;
+        //                 if (window.BOOMR.snippetMethod = e ? "if" : "i", t = function(e, n) {
+        //                         var t = d.createElement("script");
+        //                         t.id = n || "boomr-if-as", t.src = window.BOOMR.url, BOOMR_lstart = (new Date).getTime(), e = e || d.body, e.appendChild(t)
+        //                     }, !window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]\./)) return window.BOOMR.snippetMethod = "s", void t(i.parentNode, "boomr-async");
+        //                 a = document.createElement("IFRAME"), a.src = "about:blank", a.title = "", a.role = "presentation", a.loading = "eager", r = (a.frameElement || a).style, r.width = 0, r.height = 0, r.border = 0, r.display = "none", i.parentNode.appendChild(a);
+        //                 try {
+        //                     O = a.contentWindow, d = O.document.open()
+        //                 } catch (_) {
+        //                     n = document.domain, a.src = "javascript:var d=document.open();d.domain='" + n + "';void(0);", O = a.contentWindow, d = O.document.open()
+        //                 }
+        //                 if (n) d._boomrl = function() {
+        //                     this.domain = n, t()
+        //                 }, d.write("<bo" + "dy onload='document._boomrl();'>");
+        //                 else if (O._boomrl = function() {
+        //                         t()
+        //                     }, O.addEventListener) O.addEventListener("load", O._boomrl, !1);
+        //                 else if (O.attachEvent) O.attachEvent("onload", O._boomrl);
+        //                 d.close()
+        //             }
 
-                    function a(e) {
-                        window.BOOMR_onload = e && e.timeStamp || (new Date).getTime()
-                    }
-                    if (!window.BOOMR || !window.BOOMR.version && !window.BOOMR.snippetExecuted) {
-                        window.BOOMR = window.BOOMR || {}, window.BOOMR.snippetStart = (new Date).getTime(), window.BOOMR.snippetExecuted = !0, window.BOOMR.snippetVersion = 12, window.BOOMR.url = n + "NCPYV-VGJPP-N4J93-8HN3B-8B6S3";
-                        var i = document.currentScript || document.getElementsByTagName("script")[0],
-                            o = !1,
-                            r = document.createElement("link");
-                        if (r.relList && "function" == typeof r.relList.supports && r.relList.supports("preload") && "as" in r) window.BOOMR.snippetMethod = "p", r.href = window.BOOMR.url, r.rel = "preload", r.as = "script", r.addEventListener("load", e), r.addEventListener("error", function() {
-                            t(!0)
-                        }), setTimeout(function() {
-                            if (!o) t(!0)
-                        }, 3e3), BOOMR_lstart = (new Date).getTime(), i.parentNode.appendChild(r);
-                        else t(!1);
-                        if (window.addEventListener) window.addEventListener("load", a, !1);
-                        else if (window.attachEvent) window.attachEvent("onload", a)
-                    }
-                }(), "".length > 0)
-                if (e && "performance" in e && e.performance && "function" == typeof e.performance.setResourceTimingBufferSize) e.performance.setResourceTimingBufferSize();
-            ! function() {
-                if (BOOMR = e.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) {
-                    var n = "" == "true" ? 1 : 0,
-                        t = "",
-                        a = "yjlr743in27rwzkxpmia-f-32c34bbea-clientnsv4-s.akamaihd.net",
-                        i = "false" == "true" ? 2 : 1,
-                        o = {
-                            "ak.v": "36",
-                            "ak.cp": "1410510",
-                            "ak.ai": parseInt("638429", 10),
-                            "ak.ol": "0",
-                            "ak.cr": 12,
-                            "ak.ipv": 4,
-                            "ak.proto": "http/1.1",
-                            "ak.rid": "7860de",
-                            "ak.r": 43444,
-                            "ak.a2": n,
-                            "ak.m": "dsca",
-                            "ak.n": "essl",
-                            "ak.bpcip": "194.87.31.0",
-                            "ak.cport": 41746,
-                            "ak.gh": "23.72.253.155",
-                            "ak.quicv": "",
-                            "ak.tlsv": "tls1.3",
-                            "ak.0rtt": "",
-                            "ak.csrc": "-",
-                            "ak.acc": "bbr",
-                            "ak.t": "1700231952",
-                            "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==H+uhRB8ZODKYPmVZVAQ34f5BlSG41b0H5h0Xjsth/XxGjFA4cdgLCcqKXJLnsflGuyla/FD9aWbPlGAYy15wg2U9AW5+enkrF/WP6zjlg0a96E246NME0lKamoBTdkLSOfiPGPrtX/N+9QCra8pWPPuPXJwfShMctkrWPbwEBoXiEOBCeONDJekzOeFoxef1QdeolU07T2/MVq5UY4zKFCRFinxCj0zoMnluoLuUKiuWKk+d6KDp3oynNQiz8I5weEiFK78WZZQ4IB2Bs5X0dT/aCquOgk/OPGqdOuu3TErlbEc/S6q8wLIHpQXJoCV9k9wuwJJV5y8yvQanrCa7IT6wa4YoYwGjMLvXWgLmZHqZ8H0kOLi7OOMQyD8srYUG/b/+/KjyZQcqRgJ45BNWaXwTsmxNswLIpcJy0V3qFRc=",
-                            "ak.pv": "436",
-                            "ak.dpoabenc": "",
-                            "ak.tf": i
-                        };
-                    if ("" !== t) o["ak.ruds"] = t;
-                    var r = {
-                        i: !1,
-                        av: function(n) {
-                            var t = "http.initiator";
-                            if (n && (!n[t] || "spa_hard" === n[t])) o["ak.feo"] = void 0 !== e.aFeoApplied ? 1 : 0, BOOMR.addVar(o)
-                        },
-                        rv: function() {
-                            var e = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"];
-                            BOOMR.removeVar(e)
-                        }
-                    };
-                    BOOMR.plugins.AK = {
-                        akVars: o,
-                        akDNSPreFetchDomain: a,
-                        init: function() {
-                            if (!r.i) {
-                                var e = BOOMR.subscribe;
-                                e("before_beacon", r.av, null, null), e("onbeacon", r.rv, null, null), r.i = !0
-                            }
-                            return this
-                        },
-                        is_complete: function() {
-                            return !0
-                        }
-                    }
-                }
-            }()
-        }(window);
+        //             function a(e) {
+        //                 window.BOOMR_onload = e && e.timeStamp || (new Date).getTime()
+        //             }
+        //             if (!window.BOOMR || !window.BOOMR.version && !window.BOOMR.snippetExecuted) {
+        //                 window.BOOMR = window.BOOMR || {}, window.BOOMR.snippetStart = (new Date).getTime(), window.BOOMR.snippetExecuted = !0, window.BOOMR.snippetVersion = 12, window.BOOMR.url = n + "NCPYV-VGJPP-N4J93-8HN3B-8B6S3";
+        //                 var i = document.currentScript || document.getElementsByTagName("script")[0],
+        //                     o = !1,
+        //                     r = document.createElement("link");
+        //                 if (r.relList && "function" == typeof r.relList.supports && r.relList.supports("preload") && "as" in r) window.BOOMR.snippetMethod = "p", r.href = window.BOOMR.url, r.rel = "preload", r.as = "script", r.addEventListener("load", e), r.addEventListener("error", function() {
+        //                     t(!0)
+        //                 }), setTimeout(function() {
+        //                     if (!o) t(!0)
+        //                 }, 3e3), BOOMR_lstart = (new Date).getTime(), i.parentNode.appendChild(r);
+        //                 else t(!1);
+        //                 if (window.addEventListener) window.addEventListener("load", a, !1);
+        //                 else if (window.attachEvent) window.attachEvent("onload", a)
+        //             }
+        //         }(), "".length > 0)
+        //         if (e && "performance" in e && e.performance && "function" == typeof e.performance.setResourceTimingBufferSize) e.performance.setResourceTimingBufferSize();
+        //     ! function() {
+        //         if (BOOMR = e.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) {
+        //             var n = "" == "true" ? 1 : 0,
+        //                 t = "",
+        //                 a = "yjlr743in27rwzkxpmia-f-32c34bbea-clientnsv4-s.akamaihd.net",
+        //                 i = "false" == "true" ? 2 : 1,
+        //                 o = {
+        //                     "ak.v": "36",
+        //                     "ak.cp": "1410510",
+        //                     "ak.ai": parseInt("638429", 10),
+        //                     "ak.ol": "0",
+        //                     "ak.cr": 12,
+        //                     "ak.ipv": 4,
+        //                     "ak.proto": "http/1.1",
+        //                     "ak.rid": "7860de",
+        //                     "ak.r": 43444,
+        //                     "ak.a2": n,
+        //                     "ak.m": "dsca",
+        //                     "ak.n": "essl",
+        //                     "ak.bpcip": "194.87.31.0",
+        //                     "ak.cport": 41746,
+        //                     "ak.gh": "23.72.253.155",
+        //                     "ak.quicv": "",
+        //                     "ak.tlsv": "tls1.3",
+        //                     "ak.0rtt": "",
+        //                     "ak.csrc": "-",
+        //                     "ak.acc": "bbr",
+        //                     "ak.t": "1700231952",
+        //                     "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==H+uhRB8ZODKYPmVZVAQ34f5BlSG41b0H5h0Xjsth/XxGjFA4cdgLCcqKXJLnsflGuyla/FD9aWbPlGAYy15wg2U9AW5+enkrF/WP6zjlg0a96E246NME0lKamoBTdkLSOfiPGPrtX/N+9QCra8pWPPuPXJwfShMctkrWPbwEBoXiEOBCeONDJekzOeFoxef1QdeolU07T2/MVq5UY4zKFCRFinxCj0zoMnluoLuUKiuWKk+d6KDp3oynNQiz8I5weEiFK78WZZQ4IB2Bs5X0dT/aCquOgk/OPGqdOuu3TErlbEc/S6q8wLIHpQXJoCV9k9wuwJJV5y8yvQanrCa7IT6wa4YoYwGjMLvXWgLmZHqZ8H0kOLi7OOMQyD8srYUG/b/+/KjyZQcqRgJ45BNWaXwTsmxNswLIpcJy0V3qFRc=",
+        //                     "ak.pv": "436",
+        //                     "ak.dpoabenc": "",
+        //                     "ak.tf": i
+        //                 };
+        //             if ("" !== t) o["ak.ruds"] = t;
+        //             var r = {
+        //                 i: !1,
+        //                 av: function(n) {
+        //                     var t = "http.initiator";
+        //                     if (n && (!n[t] || "spa_hard" === n[t])) o["ak.feo"] = void 0 !== e.aFeoApplied ? 1 : 0, BOOMR.addVar(o)
+        //                 },
+        //                 rv: function() {
+        //                     var e = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"];
+        //                     BOOMR.removeVar(e)
+        //                 }
+        //             };
+        //             BOOMR.plugins.AK = {
+        //                 akVars: o,
+        //                 akDNSPreFetchDomain: a,
+        //                 init: function() {
+        //                     if (!r.i) {
+        //                         var e = BOOMR.subscribe;
+        //                         e("before_beacon", r.av, null, null), e("onbeacon", r.rv, null, null), r.i = !0
+        //                     }
+        //                     return this
+        //                 },
+        //                 is_complete: function() {
+        //                     return !0
+        //                 }
+        //             }
+        //         }
+        //     }()
+        // }(window);
     </script>
 </head>
 
@@ -641,8 +640,7 @@ $settings = session()->get('settings');
 
 
 
-                        <div class="cards align-slot--left
-     cards_grid-row-2">
+                        <div class="cards align-slot--left     cards_grid-row-2">
 
                             <article class="card card__1 card__wrapper" data-module-id="1667234829618_11p" data-module-name="MKB " data-module-position="1" data-module-type="card_story">
                                 <div class="card--card_story flex border-rad-16">
@@ -1698,7 +1696,7 @@ $settings = session()->get('settings');
             <div class="topFooterNavigation">
                 <div class="container slds-grid">
                     <div class="slds-col slds-large-size_4-of-12">
-                        <div class="footer-logo"><a class="image-link" href="/nl/" data-tracking-type="logo"><img class="logo-img" alt="Salesforce Home" src="//www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg"></a></div>
+                        <!-- <div class="footer-logo"><a class="image-link" href="/nl/" data-tracking-type="logo"><img class="logo-img" alt="Salesforce Home" src="/assets2/images/logo.jpg"></a></div> -->
                         <div class="footer-social-links">
                             <div class="social-media-links"><a href="http://www.facebook.com/salesforceNL" target="_blank" title="Facebook" data-tracking-type="social"><svg class="salesforce-social-icon icon-facebook" alt="Facebook"></svg></a><a href="http://twitter.com/salesforce_NL" target="_blank" title="Twitter" data-tracking-type="social"><svg class="salesforce-social-icon icon-twitter" alt="Twitter"></svg></a><a href="http://www.linkedin.com/company/salesforce" target="_blank" title="LinkedIn" data-tracking-type="social"><svg class="salesforce-social-icon icon-linkedin" alt="LinkedIn"></svg></a><a href="https://instagram.com/salesforce/" target="_blank" title="Instagram" data-tracking-type="social"><svg class="salesforce-social-icon icon-instagram" alt="Instagram"></svg></a><a href="https://www.youtube.com/user/SalesforceNederland" target="_blank" title="Youtube" data-tracking-type="social"><svg class="salesforce-social-icon icon-youtube" alt="Youtube"></svg></a></div>
                         </div>
@@ -1805,14 +1803,7 @@ $settings = session()->get('settings');
         );
         //});
     </script>
-
-
     <script defer="" src="assets2/js/chat.js"></script>
-
     <script defer="" src="assets2/js/tableau-2.9.2.min.js"></script>
-
-
-
 </body>
-
 </html>
