@@ -1,7 +1,7 @@
 <div class="authincation h-100" style="background-image: url('https://myfarebox.com/images/poster.jpg'); background-size: cover;">
     <div class="container d-flex w-100 h-100 justify-content-center h-100 align-items-center">
-        <div class="row justify-content-center align-items-center">
-            <div class="d-none d-md-block col-md-6 ">
+        <div class="row justify-content-center align-items-start">
+            <div class="d-none d-md-block col-md-6 pt-5">
                 <h1 class="text-white mx-3">HUB OF THE BEST
                     AIRFARE DEALS IN THE WORLD</h1>
                 <p class="fs-3 m-3">Travel technology that provides access to the lowest global airfares from 600+ full service and 180+ low cost airlines, sourced from 70+ point of sale countries on a single platform</p>
