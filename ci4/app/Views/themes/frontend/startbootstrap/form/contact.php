@@ -565,13 +565,8 @@
                                     <div class="row columns-wrapper" style="500">
                                         <div class="col  text-left col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                             <div class="headingComponent parbase section">
-                                                <h1 id="how-would-you-like-to-contact-salesforce" class="avantgarde-lgrtext-stratus
-            text-left avant-garde-demi
-            margin-60-top-lg margin-40-top-sm margin-40-bottom-lg margin-30-bottom-sm
-            " style="; ">
-                                                    <span class="
-                header-text
-                ">
+                                                <h1 id="how-would-you-like-to-contact-salesforce" class="avantgarde-lgrtext-stratus       text-left avant-garde-demi            margin-60-top-lg margin-40-top-sm margin-40-bottom-lg margin-30-bottom-sm            " style="; ">
+                                                    <span class="                header-text               ">
                                                         How would you like to contact Travsify B2B?
                                                     </span>
                                                 </h1>
@@ -598,14 +593,8 @@
                                                                 <div class="form-container-v2 sfdc-form-day sfdc-form-closed sfdc-form-small  ">
                                                                     <div class="form-header-wrap">
                                                                         <div class="headingComponent parbase section">
-                                                                            <h2 id="request-a-call" class="h3
-            text-night
-            text-left
-            salesforce-sans-bold
-            " style="; ">
-                                                                                <span class="
-                header-text
-                ">
+                                                                            <h2 id="request-a-call" class="h3 text-night   text-left           salesforce-sans-bold            " style="; ">
+                                                                                <span class="             header-text                ">
                                                                                     Lets's Connect.
                                                                                 </span>
                                                                             </h2>
@@ -756,36 +745,6 @@
                                                                                     <option value="Iata Tids">IATA TIDS</option>
                                                                                     <option value="Custom Travel Solutions">Custom Travel Solutions</option>
                                                                                     <option value="Travelb B2E">Travel B2E</option>
-                                                                                    <!-- <option disabled="" label="Product Interest" selected="" value="">Product
-                                                                                        Interest</option>
-                                                                                    <option value="Multi-Product">
-                                                                                        Artificial Intelligence</option>
-                                                                                    <option value="Sales">Sales Force
-                                                                                        Automation and CRM</option>
-                                                                                    <option value="Support">Customer
-                                                                                        Service Support and Help Desk
-                                                                                    </option>
-                                                                                    <option value="Marketing">Marketing
-                                                                                        Technology</option>
-                                                                                    <option value="Commerce Cloud">
-                                                                                        Commerce Platform</option>
-                                                                                    <option value="Marketing">CDP and
-                                                                                        Data</option>
-                                                                                    <option value="Tableau">Business
-                                                                                        Intelligence and Analytics
-                                                                                        Software</option>
-                                                                                    <option value="MuleSoft">Integration
-                                                                                        Software</option>
-                                                                                    <option value="Slack">Team
-                                                                                        Productivity</option>
-                                                                                    <option value="Force.com">Customer
-                                                                                        Application Development</option>
-                                                                                    <option value="Net Zero Cloud">Net
-                                                                                        Zero Software</option>
-                                                                                    <option value="Success Plans">
-                                                                                        Success Plans</option>
-                                                                                    <option value="Salesforce Professional Services">
-                                                                                        Professional Services</option> -->
                                                                                 </select>
                                                                                 <label for="Lead.Primary_Product_Interest__c" class="placeholder">Product
                                                                                     Interest</label>
@@ -905,9 +864,9 @@
                                                                         <span class="hidden-lg hidden-md hidden-sm">
                                                                             CALL US
                                                                         </span>
-                                                                       <span class="hidden-xs">
-                                                                       +12134686786
-                                                                       </span>
+                                                                        <span class="hidden-xs">
+                                                                            +12134686786
+                                                                        </span>
                                                                     </a>
                                                                     | <a class="dialing-phone text-night nowrap" href="tel:1-800-387-3285">1-800-387-3285</a>
                                                                 </div>
@@ -922,15 +881,15 @@
             margin-20-right-lg margin-10-bottom-lg margin-30-left-lg
             " style="; ">
                                                                     <span class="header-text">
-                                                                            USA | +1-213-468-6786
-                                                                        </span><br>
-                                                                        <span class="header-text">
-                                                                            UK | +44-747-717-1959
-                                                                        </span><br>
-                                                                        <span class="header-text">
+                                                                        USA | +1-213-468-6786
+                                                                    </span><br>
+                                                                    <span class="header-text">
+                                                                        UK | +44-747-717-1959
+                                                                    </span><br>
+                                                                    <span class="header-text">
 
-                                                                            NGA | +234-704-018-5146
-                                                                        </span><br>
+                                                                        NGA | +234-704-018-5146
+                                                                    </span><br>
                                                                 </p>
                                                             </div>
                                                             <!-- <div class="bodyCopyComponent parbase section">
@@ -1058,7 +1017,7 @@
                                                                     <span class="
                 header-text
                 ">
-                                                                       Need Custom Solutions?
+                                                                        Need Custom Solutions?
                                                                     </span>
                                                                 </h2>
                                                             </div>
@@ -1161,7 +1120,7 @@
                                                                 CALL US
                                                             </span>
                                                             <span class="hidden-xs">
-                                                          +1-213-468-6786 
+                                                                +1-213-468-6786
                                                             </span>
                                                         </a>
                                                     </div>
@@ -1176,7 +1135,7 @@
                                                             <span class="
                 header-text
                 ">
-                                                                Call us at +1-213-468-6786 
+                                                                Call us at +1-213-468-6786
                                                             </span>
                                                         </p>
                                                     </div>
