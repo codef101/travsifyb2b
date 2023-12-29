@@ -1,416 +1,3 @@
-<?php
-$settings = session()->get('settings');
-?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon-->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?= site_url('themes/focus2/images/favicon.png') ?>">
-    <meta property="visitor" content="prospect">
-    <title><?= $settings['title'] ?? '' ?></title>
-    <meta property="og:image:alt" content="">
-    <meta property="og:locale" content="nl_NL">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://travsifyb2b.com/">
-    <meta property="og:image" content="assets2/images/salesforce-logo.jpg">
-    <meta property="og:description" content="<?= $settings['seo_description'] ?? '' ?>">
-    <meta property="og:title" content="Travsify B2B">
-    <meta property="og:site_name" content="Travsify B2B">
-    <meta property="twitter:site" content="">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://travsifyb2b.com/">
-    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-    <meta name="description" content="<?= $settings['seo_description'] ?? '' ?>">
-    <link rel="canonical" href="https://travsifyb2b.com/">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Salesforce",
-            "url": "https://www.salesforce.com"
-        }
-    </script>
-
-
-    <link rel="preconnect" href="//a.sfdcstatic.com">
-    <link rel="preconnect" href="//www.googletagmanager.com">
-    <link rel="preconnect" href="//www.google-analytics.com">
-    <link rel="preconnect" href="//wp.salesforce.com">
-    <link rel="preconnect" href="//service.force.com">
-    <link rel="preconnect" href="//geolocation.onetrust.com">
-    <link rel="preconnect" href="//cdn.krxd.net">
-    <link rel="preconnect" href="//org62.my.salesforce.com">
-    <link rel="preconnect" href="//dpm.demdex.net">
-    <link rel="preconnect" href="//cdn.evgnet.com">
-    <link rel="preconnect" href="//salesforce.us-1.evergage.com">
-    <link rel="preconnect" href="//api.company-target.com">
-    <link rel="preconnect" href="//fonts.googleapis.com">
-    <link rel="preload" as="font" href="//a.sfdcstatic.com/shared/fonts/salesforce-sans/SalesforceSans-Regular.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="//a.sfdcstatic.com/shared/fonts/salesforce-sans/SalesforceSans-Italic.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="//a.sfdcstatic.com/shared/fonts/salesforce-sans/SalesforceSans-Bold.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="//a.sfdcstatic.com/shared/fonts/salesforce-icons/salesforce-icons.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="//a.sfdcstatic.com/shared/fonts/avant-garde/AvantGardeForSalesforceW05-Dm.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="style" href="/c/public/exp/pbc/server/css/style.4dfe2eaf7eb5276d9774.css">
-    <link rel="stylesheet" href="assets2/css/style.4dfe2eaf7eb5276d9774.css" media="screen">
-    <link rel="stylesheet" href="assets2/css/header.css" media="screen">
-    <script>
-        window.sfdcBase = Object.assign(window.sfdcBase || {}, {
-            "env": "PROD",
-            "locale": "nl-nl",
-            "personalizationEnabled": true,
-            "ssoEnabled": true,
-            "page": {
-                "pagename": "SFDC:nl:homepage",
-                "type": "Home Page",
-                "locale": "nl",
-                "segment": "non-customer:nl",
-                "sitesection": "nl:homepage",
-                "uiframework": "Page Builder"
-            },
-            "clientErrorThreshold": 10,
-            "clientErrorEndpoint": "https://www.salesforce.com/c/clerr",
-            "optimizely": {
-                "enabled": true,
-                "cdnUrl": "https://cdn.optimizely.com/assets2/js/24776530927.js"
-            }
-        })
-    </script>
-    <script type="text/javascript" src="assets2/js/top.js"></script>
-    <script async="" type="text/javascript" src="assets2/js/otSDKStub.js" data-domain-script="8e783e8c-0ad0-475d-8fca-4a03afa0a02a" crossorigin=""></script>
-    <script defer="" type="text/javascript" src="assets2/js/bottom.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/ot-ext.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/comp-data.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/legacy.js"></script>
-    <script async="" type="text/javascript" src="assets2/js/bundle.eac8db148673d3d61ce7.js" id="pal-script" data-dataset="sf_shared_prod"></script>
-    <script type="module" src="assets2/js/navs.js"></script>
-    <script defer="" type="module" src="assets2/js/prod.f2188467.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/templates.9af351a3.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/nunjucks-slim.min.js"></script>
-    <script defer="" type="text/javascript" src="assets2/js/scripts.bd067cfb6df2342318f0.js"></script> 
-
-    <script>
-        (window.BOOMR_mq = window.BOOMR_mq || []).push(["addVar", {
-            "rua.upush": "false",
-            "rua.cpush": "false",
-            "rua.upre": "false",
-            "rua.cpre": "false",
-            "rua.uprl": "false",
-            "rua.cprl": "false",
-            "rua.cprf": "false",
-            "rua.trans": "",
-            "rua.cook": "false",
-            "rua.ims": "false",
-            "rua.ufprl": "false",
-            "rua.cfprl": "false",
-            "rua.isuxp": "false",
-            "rua.texp": "norulematch"
-        }]);
-    </script>
-    <script>
-        // ! function(e) {
-        //     var n = "https://s.go-mpulse.net/boomerang/";
-        //     if ("False" == "True") e.BOOMR_config = e.BOOMR_config || {}, e.BOOMR_config.PageParams = e.BOOMR_config.PageParams || {}, e.BOOMR_config.PageParams.pci = !0, n = "https://s2.go-mpulse.net/boomerang/";
-        //     if (window.BOOMR_API_key = "NCPYV-VGJPP-N4J93-8HN3B-8B6S3", function() {
-        //             function e() {
-        //                 if (!o) {
-        //                     var e = document.createElement("script");
-        //                     e.id = "boomr-scr-as", e.src = window.BOOMR.url, e.async = !0, i.parentNode.appendChild(e), o = !0
-        //                 }
-        //             }
-
-        //             function t(e) {
-        //                 o = !0;
-        //                 var n, t, a, r, d = document,
-        //                     O = window;
-        //                 if (window.BOOMR.snippetMethod = e ? "if" : "i", t = function(e, n) {
-        //                         var t = d.createElement("script");
-        //                         t.id = n || "boomr-if-as", t.src = window.BOOMR.url, BOOMR_lstart = (new Date).getTime(), e = e || d.body, e.appendChild(t)
-        //                     }, !window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]\./)) return window.BOOMR.snippetMethod = "s", void t(i.parentNode, "boomr-async");
-        //                 a = document.createElement("IFRAME"), a.src = "about:blank", a.title = "", a.role = "presentation", a.loading = "eager", r = (a.frameElement || a).style, r.width = 0, r.height = 0, r.border = 0, r.display = "none", i.parentNode.appendChild(a);
-        //                 try {
-        //                     O = a.contentWindow, d = O.document.open()
-        //                 } catch (_) {
-        //                     n = document.domain, a.src = "javascript:var d=document.open();d.domain='" + n + "';void(0);", O = a.contentWindow, d = O.document.open()
-        //                 }
-        //                 if (n) d._boomrl = function() {
-        //                     this.domain = n, t()
-        //                 }, d.write("<bo" + "dy onload='document._boomrl();'>");
-        //                 else if (O._boomrl = function() {
-        //                         t()
-        //                     }, O.addEventListener) O.addEventListener("load", O._boomrl, !1);
-        //                 else if (O.attachEvent) O.attachEvent("onload", O._boomrl);
-        //                 d.close()
-        //             }
-
-        //             function a(e) {
-        //                 window.BOOMR_onload = e && e.timeStamp || (new Date).getTime()
-        //             }
-        //             if (!window.BOOMR || !window.BOOMR.version && !window.BOOMR.snippetExecuted) {
-        //                 window.BOOMR = window.BOOMR || {}, window.BOOMR.snippetStart = (new Date).getTime(), window.BOOMR.snippetExecuted = !0, window.BOOMR.snippetVersion = 12, window.BOOMR.url = n + "NCPYV-VGJPP-N4J93-8HN3B-8B6S3";
-        //                 var i = document.currentScript || document.getElementsByTagName("script")[0],
-        //                     o = !1,
-        //                     r = document.createElement("link");
-        //                 if (r.relList && "function" == typeof r.relList.supports && r.relList.supports("preload") && "as" in r) window.BOOMR.snippetMethod = "p", r.href = window.BOOMR.url, r.rel = "preload", r.as = "script", r.addEventListener("load", e), r.addEventListener("error", function() {
-        //                     t(!0)
-        //                 }), setTimeout(function() {
-        //                     if (!o) t(!0)
-        //                 }, 3e3), BOOMR_lstart = (new Date).getTime(), i.parentNode.appendChild(r);
-        //                 else t(!1);
-        //                 if (window.addEventListener) window.addEventListener("load", a, !1);
-        //                 else if (window.attachEvent) window.attachEvent("onload", a)
-        //             }
-        //         }(), "".length > 0)
-        //         if (e && "performance" in e && e.performance && "function" == typeof e.performance.setResourceTimingBufferSize) e.performance.setResourceTimingBufferSize();
-        //     ! function() {
-        //         if (BOOMR = e.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) {
-        //             var n = "" == "true" ? 1 : 0,
-        //                 t = "",
-        //                 a = "yjlr743in27rwzkxpmia-f-32c34bbea-clientnsv4-s.akamaihd.net",
-        //                 i = "false" == "true" ? 2 : 1,
-        //                 o = {
-        //                     "ak.v": "36",
-        //                     "ak.cp": "1410510",
-        //                     "ak.ai": parseInt("638429", 10),
-        //                     "ak.ol": "0",
-        //                     "ak.cr": 12,
-        //                     "ak.ipv": 4,
-        //                     "ak.proto": "http/1.1",
-        //                     "ak.rid": "7860de",
-        //                     "ak.r": 43444,
-        //                     "ak.a2": n,
-        //                     "ak.m": "dsca",
-        //                     "ak.n": "essl",
-        //                     "ak.bpcip": "194.87.31.0",
-        //                     "ak.cport": 41746,
-        //                     "ak.gh": "23.72.253.155",
-        //                     "ak.quicv": "",
-        //                     "ak.tlsv": "tls1.3",
-        //                     "ak.0rtt": "",
-        //                     "ak.csrc": "-",
-        //                     "ak.acc": "bbr",
-        //                     "ak.t": "1700231952",
-        //                     "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==H+uhRB8ZODKYPmVZVAQ34f5BlSG41b0H5h0Xjsth/XxGjFA4cdgLCcqKXJLnsflGuyla/FD9aWbPlGAYy15wg2U9AW5+enkrF/WP6zjlg0a96E246NME0lKamoBTdkLSOfiPGPrtX/N+9QCra8pWPPuPXJwfShMctkrWPbwEBoXiEOBCeONDJekzOeFoxef1QdeolU07T2/MVq5UY4zKFCRFinxCj0zoMnluoLuUKiuWKk+d6KDp3oynNQiz8I5weEiFK78WZZQ4IB2Bs5X0dT/aCquOgk/OPGqdOuu3TErlbEc/S6q8wLIHpQXJoCV9k9wuwJJV5y8yvQanrCa7IT6wa4YoYwGjMLvXWgLmZHqZ8H0kOLi7OOMQyD8srYUG/b/+/KjyZQcqRgJ45BNWaXwTsmxNswLIpcJy0V3qFRc=",
-        //                     "ak.pv": "436",
-        //                     "ak.dpoabenc": "",
-        //                     "ak.tf": i
-        //                 };
-        //             if ("" !== t) o["ak.ruds"] = t;
-        //             var r = {
-        //                 i: !1,
-        //                 av: function(n) {
-        //                     var t = "http.initiator";
-        //                     if (n && (!n[t] || "spa_hard" === n[t])) o["ak.feo"] = void 0 !== e.aFeoApplied ? 1 : 0, BOOMR.addVar(o)
-        //                 },
-        //                 rv: function() {
-        //                     var e = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"];
-        //                     BOOMR.removeVar(e)
-        //                 }
-        //             };
-        //             BOOMR.plugins.AK = {
-        //                 akVars: o,
-        //                 akDNSPreFetchDomain: a,
-        //                 init: function() {
-        //                     if (!r.i) {
-        //                         var e = BOOMR.subscribe;
-        //                         e("before_beacon", r.av, null, null), e("onbeacon", r.rv, null, null), r.i = !0
-        //                     }
-        //                     return this
-        //                 },
-        //                 is_complete: function() {
-        //                     return !0
-        //                 }
-        //             }
-        //         }
-        //     }()
-        // }(window);
-    </script>
-</head>
-
-<body>
-
-    <script>
-        var wpdata = {
-            navigation: {
-                "top-navigation-c360": [{
-                        "ID": 0,
-                        "title": "About",
-                        "showIcon": true,
-                        "navigationItems": [{
-                            "ID": 1,
-                            "buttonlink": {
-                                "label": "About Us",
-                                "url": "/site/about",
-                                "target": "_self"
-                            }
-                        }]
-                    },
-                    {
-                        "ID": 2,
-                        "title": "Contact",
-                        "showIcon": true,
-                        "navigationItems": [{
-                            "ID": 1,
-                            "buttonlink": {
-                                "label": "Contact Us",
-                                "url": "/site/contact",
-                                "target": "_self"
-                            }
-                        }]
-                    },
-                    {
-                        "ID": 3,
-                        "title": "Pricing",
-                        "showIcon": true,
-                        "navigationItems": [{
-                            "ID": 1,
-                            "buttonlink": {
-                                "label": "Our Prices",
-                                "url": "/site/pricing",
-                                "target": "_self"
-                            }
-                        }]
-                    },
-                    {
-                        "ID": 4,
-                        "title": "FAQ",
-                        "showIcon": true,
-                        "navigationItems": [{
-                            "ID": 1,
-                            "buttonlink": {
-                                "label": "Frequently Asked Questions",
-                                "url": "/site/faq",
-                                "target": "_self"
-                            }
-                        }]
-                    },
-                    {
-                        "ID": 5,
-                        "title": "Blog",
-                        "showIcon": true,
-                        "navigationItems": [{
-                                "ID": 1,
-                                "buttonlink": {
-                                    "label": "Blog Home",
-                                    "url": "/site/blog_home",
-                                    "target": "_self"
-                                }
-                            },
-                            {
-                                "ID": 2,
-                                "buttonlink": {
-                                    "label": "Blog Post",
-                                    "url": "/site/blog_post",
-                                    "target": "_self"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "ID": 6,
-                        "title": "Documentation",
-                        "showIcon": true,
-                        "navigationItems": [{
-                            "ID": 1,
-                            "buttonlink": {
-                                "label": "Our Documentation",
-                                "url": "/documentation",
-                                "target": "_self"
-                            }
-                        }]
-                    }
-                ],
-                "utility-navigation-c360": {
-                    "labelBack": "Back",
-                    "logoAlt": "Travsify B2B Home",
-                    "labelMore": "labelMore",
-                    "contact": {
-                        "title": "Contact",
-                        "firstSubtitle": "Telephone",
-                        "lock": {
-                            "move": false,
-                            "remove": false
-                        },
-                        "links": [{
-                                "label": "Contact Page",
-                                "url": "/site/contact",
-                                "target": "_self"
-                            },
-                            {
-                                "label": "api@travsifyb2b.com",
-                                "url": "mailto:api@travsifyb2b.com",
-                                "target": "_self"
-                            },
-                            {
-                                "label": "Address: 635 Pine Ave, Pacific Grove, California, U.S.A",
-                                "url": "/site/contact",
-                                "target": "_self"
-                            }
-                        ],
-                        "secondSubtitle": "Online",
-                        "phones": [{
-                                "url": "tel:2347040185146 ",
-                                "label": "+2347040185146 ",
-                                "target": "_self",
-                                "ariaLabel": ""
-                            },
-                            {
-                                "url": "tel:12134686786",
-                                "label": "+12134686786",
-                                "target": "_self",
-                                "ariaLabel": ""
-                            }
-                        ]
-                    },
-                    "login": {
-                        "labelLogin": "<?php if (empty(session()->get('token'))) {
-                                            echo 'Login';
-                                        } else {
-                                            echo 'Dashboard';
-                                        } ?>",
-                        "labelMyAccounts": "Mijn accounts",
-                        "authBackgroundImage": {
-                            "src": null,
-                            "alt": null,
-                            "title": "",
-                            "sizes": false,
-                            "width": null,
-                            "height": null
-                        },
-                        "labelProducts": "Link",
-                        "loginSalesforce": {
-                            "label": "<?php if (empty(session()->get('token'))) {
-                                            echo 'Login';
-                                        } else {
-                                            echo 'Dashboard';
-                                        } ?>",
-                            "url": "<?php if (empty(session()->get('token'))) {
-                                        echo '/login';
-                                    } else {
-                                        echo '/dashboard';
-                                    } ?>",
-                            "target": "_self",
-                            "ariaLabel": "Travsify B2B label"
-                        }
-                    }
-                },
-                "isPreview": false
-            }
-        };
-    </script>
-
-    <div class="globalnav-wrapper-c360">
-        <a class="screen-reader-text skip-to-content-c360" href="#main-content">
-            <div class="screen-reader-container">Skip to content</div>
-        </a>
-        <hgf-c360nav locale="us" search="true" show-region-selector="true" context-nav-enabled="false" hide-login="false" truly-hide-login="false" show-button-main="true" show-button-secondary="false" hide-contact="false" origin="https://wp.sfdcdigital.com/en-us/wp-json">
-
-        </hgf-c360nav>
-
-
-    </div>
     <main id="main-content">
         <div data-blade-id="1666820637520_9ph" data-blade-position="1" data-blade-name="sf/marquee" data-blade-variant="marquee" data-blade-source="www" data-blade-type="blade">
             <section id="1666820637520_9ph" class="relative marquee--blade marquee--right-image">
@@ -475,8 +62,7 @@ $settings = session()->get('settings');
         <div data-blade-id="1670353488900_9ao" data-blade-position="2" data-blade-name="sf/nup" data-blade-variant="nup" data-blade-source="www" data-blade-type="blade">
             <section id="1670353488900_9ao" class="relative nup--blade  layout--3 nup--card_resource">
                 <div class="container  pb-64 mobile-pb-48   pt-24 mobile-pt-16 ">
-                    <div class="grid grid_main  nup  nup__3
-             nup__gridThree">
+                    <div class="grid grid_main  nup  nup__3             nup__gridThree">
 
                         <header class="nup__blade-heading text--center">
 
@@ -622,11 +208,8 @@ $settings = session()->get('settings');
         <div data-blade-id="1667234829560_wyo" data-blade-position="3" data-blade-name="sf/story" data-blade-variant="story" data-blade-source="www" data-blade-type="blade">
             <section id="1667234829560_wyo" class="relative story--blade story--link_above layout--4 story--card_story">
                 <div class="container  pb-64 mobile-pb-48   pt-24 mobile-pt-16 ">
-                    <div class="grid grid_main  grid--onebyone  story__4
-             story__gridFour">
-
-                        <header class="story__blade-heading text--center block_align--center
-                                ">
+                    <div class="grid grid_main  grid--onebyone  story__4             story__gridFour">
+                        <header class="story__blade-heading text--center block_align--center                                ">
 
 
                             <h2 class="headline" style="">
@@ -824,377 +407,10 @@ $settings = session()->get('settings');
             </section>
 
         </div>
-        <div data-blade-id="1673645344636_1dug" data-blade-position="4" data-blade-name="sf/nup" data-blade-variant="nup" data-blade-source="www" data-blade-type="blade">
-            <!--section id="1673645344636_1dug" class="relative nup--blade nup--link_below layout--3 nup--card_resource">
-                <div class="container  pb-64 mobile-pb-48   pt-64 mobile-pt-48  background__present">
-                    <div class="grid grid_main  nup  nup__3
-             nup__gridThree">
-
-                        <header class="nup__blade-heading text--center">
-
-
-                            <h2 class="headline" style="">
-
-                                Ontdek de innovaties voor iedere sector.
-
-                            </h2>
-
-
-                        </header>
-
-
-                        <div class="cards">
-
-
-                            <article class="card card__1 card__wrapper " data-module-id="1673650072726_14lx"
-                                data-module-name="Financiële dienstverlening " data-module-position="1"
-                                data-module-type="card_resource">
-                                <div class="card--card_resource pbc-g-elevation-2 flex border-rad-16 ">
-
-
-
-
-
-
-                                    <div class="card__image__wrapper">
-                                        <a href="/nl/solutions/industries/financial-services/overview/?d=industries-1-fin-serv"
-                                            tabindex="-1" aria-label="Financiële dienstverlening "
-                                            data-link-url="/nl/solutions/industries/financial-services/overview/?d=industries-1-fin-serv"
-                                            data-link-type="image" target="">
-
-                                            <img loading="lazy" src="assets2/images/industries-icon-card-fin-service.jpg"
-                                                class="card__image"
-                                                alt="Bekijk alle oplossingen - Financiële dienstverlening" sizes="100vw"
-                                                srcset="assets2/images/industries-icon-card-fin-service_1.jpg 150w, assets2/images/industries-icon-card-fin-service_2.jpg 300w, assets2/images/industries-icon-card-fin-service_3.jpg 768w, assets2/images/industries-icon-card-fin-service_4.jpg 1024w, assets2/images/industries-icon-card-fin-service_6.jpg 1536w, assets2/images/industries-icon-card-fin-service_5.jpg 2048w"
-                                                height="auto" width="auto">
-
-                                        </a>
-                                    </div>
-
-                                    <div class="card__content__wrapper">
-                                        <div class="card__copy__wrapper">
-
-
-                                            <h3 class="card__headline mb-16" style="">
-                                                <a href="/nl/solutions/industries/financial-services/overview/?d=industries-1-fin-serv"
-                                                    data-link-text="Financiële dienstverlening "
-                                                    data-link-url="/nl/solutions/industries/financial-services/overview/?d=industries-1-fin-serv"
-                                                    data-link-type="header" target="">
-                                                    Financiële dienstverlening
-                                                </a>
-                                            </h3>
-
-
-
-                                            <div class="card__description mt-16">
-                                                Verzeker klanten een leven lang.
-                                            </div>
-
-                                        </div>
-
-                                        <div class="cta_container flex flex--center">
-
-
-
-
-
-
-
-
-                                            <pbc-button class="cta_button__wrapper"
-                                                data-link-text="Bekijk alle oplossingen"
-                                                data-link-url="/nl/solutions/industries/financial-services/overview/?d=industries-1-fin-serv"
-                                                data-link-type="primary cta">
-                                                <a class="cta_button" data-size="" data-variant="cardText"
-                                                    data-stacking="wideM"
-                                                    aria-label="Bekijk alle oplossingen - Financiële dienstverlening"
-                                                    href="/nl/solutions/industries/financial-services/overview/?d=industries-1-fin-serv">
-                                                    Bekijk alle oplossingen
-                                                </a>
-                                            </pbc-button>
-
-
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                            </article>
-
-
-                            <article class="card card__2 card__wrapper " data-module-id="1673651268972_igf"
-                                data-module-name="Retail" data-module-position="2" data-module-type="card_resource">
-                                <div class="card--card_resource pbc-g-elevation-2 flex border-rad-16 ">
-
-
-
-
-
-
-                                    <div class="card__image__wrapper">
-                                        <a href="/nl/solutions/industries/retail/overview/?d=industries-2-retail"
-                                            tabindex="-1" aria-label="Retail"
-                                            data-link-url="/nl/solutions/industries/retail/overview/?d=industries-2-retail"
-                                            data-link-type="image" target="">
-
-                                            <img loading="lazy" src="assets2/images/industries-icon-card-retail.jpg"
-                                                class="card__image" alt="Bekijk alle oplossingen - Retail" sizes="100vw"
-                                                srcset="assets2/images/industries-icon-card-retail_1.jpg 150w, assets2/images/industries-icon-card-retail_3.jpg 300w, assets2/images/industries-icon-card-retail_2.jpg 768w, assets2/images/industries-icon-card-retail_4.jpg 1024w, assets2/images/industries-icon-card-retail_5.jpg 1536w, assets2/images/industries-icon-card-retail_6.jpg 2048w"
-                                                height="auto" width="auto">
-
-                                        </a>
-                                    </div>
-
-                                    <div class="card__content__wrapper">
-                                        <div class="card__copy__wrapper">
-
-
-                                            <h3 class="card__headline mb-16" style="">
-                                                <a href="/nl/solutions/industries/retail/overview/?d=industries-2-retail"
-                                                    data-link-text="Retail"
-                                                    data-link-url="/nl/solutions/industries/retail/overview/?d=industries-2-retail"
-                                                    data-link-type="header" target="">
-                                                    Retail
-                                                </a>
-                                            </h3>
-
-
-
-                                            <div class="card__description mt-16">
-                                                Zorg voor succes in retail. Juist nu.
-                                            </div>
-
-                                        </div>
-
-                                        <div class="cta_container flex flex--center">
-
-
-
-
-
-
-
-
-                                            <pbc-button class="cta_button__wrapper"
-                                                data-link-text="Bekijk alle oplossingen"
-                                                data-link-url="/nl/solutions/industries/retail/overview/?d=industries-2-retail"
-                                                data-link-type="primary cta">
-                                                <a class="cta_button" data-size="" data-variant="cardText"
-                                                    data-stacking="wideM" aria-label="Bekijk alle oplossingen - Retail"
-                                                    href="/nl/solutions/industries/retail/overview/?d=industries-2-retail">
-                                                    Bekijk alle oplossingen
-                                                </a>
-                                            </pbc-button>
-
-
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                            </article>
-
-
-                            <article class="card card__3 card__wrapper " data-module-id="1673650072737_xtv"
-                                data-module-name="Maakindustrie" data-module-position="3"
-                                data-module-type="card_resource">
-                                <div class="card--card_resource pbc-g-elevation-2 flex border-rad-16 ">
-
-
-
-
-
-
-                                    <div class="card__image__wrapper">
-                                        <a href="/nl/solutions/industries/manufacturing/overview/?d=industries-3-manufacturing"
-                                            tabindex="-1" aria-label="Maakindustrie"
-                                            data-link-url="/nl/solutions/industries/manufacturing/overview/?d=industries-3-manufacturing"
-                                            data-link-type="image" target="">
-
-                                            <img loading="lazy" src="assets2/images/industries-icon-card-health-life.jpg"
-                                                class="card__image"
-                                                alt="Bekijk alle oplossingen - Gezondheidszorg en life sciences"
-                                                sizes="100vw"
-                                                srcset="assets2/images/industries-icon-card-health-life_1.jpg 150w, assets2/images/industries-icon-card-health-life_3.jpg 300w, assets2/images/industries-icon-card-health-life_2.jpg 768w, assets2/images/industries-icon-card-health-life_4.jpg 1024w, assets2/images/industries-icon-card-health-life_6.jpg 1536w, assets2/images/industries-icon-card-health-life_5.jpg 2048w"
-                                                height="auto" width="auto">
-
-                                        </a>
-                                    </div>
-
-                                    <div class="card__content__wrapper">
-                                        <div class="card__copy__wrapper">
-
-
-                                            <h3 class="card__headline mb-16" style="">
-                                                <a href="/nl/solutions/industries/manufacturing/overview/?d=industries-3-manufacturing"
-                                                    data-link-text="Maakindustrie"
-                                                    data-link-url="/nl/solutions/industries/manufacturing/overview/?d=industries-3-manufacturing"
-                                                    data-link-type="header" target="">
-                                                    Maakindustrie
-                                                </a>
-                                            </h3>
-
-
-
-                                            <div class="card__description mt-16">
-                                                <p>Verbind de waardeketen.</p>
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="cta_container flex flex--center">
-
-
-
-
-
-
-
-
-                                            <pbc-button class="cta_button__wrapper"
-                                                data-link-text="Bekijk alle oplossingen"
-                                                data-link-url="/nl/solutions/industries/manufacturing/overview/?d=industries-3-manufacturing"
-                                                data-link-type="primary cta">
-                                                <a class="cta_button" data-size="" data-variant="cardText"
-                                                    data-stacking="wideM"
-                                                    aria-label="Bekijk alle oplossingen - Maakindustrie"
-                                                    href="/nl/solutions/industries/manufacturing/overview/?d=industries-3-manufacturing">
-                                                    Bekijk alle oplossingen
-                                                </a>
-                                            </pbc-button>
-
-
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                            </article>
-
-                        </div>
-
-
-
-                        <div class="nup_cta" data-module-name="Ontdek de innovaties voor iedere sector."
-                            data-module-position="4" data-module-id="0" data-module-type="cta">
-
-
-
-
-
-
-
-
-
-
-
-
-                            <div class="cta_container flex flex--center ctas__1">
-
-
-
-
-
-
-
-
-                                <pbc-button class="cta_button__wrapper" data-link-text="Bekijk alle brancheoplossingen"
-                                    data-link-url="/nl/solutions/industries/?d=cta-democards-9-ungated-industries-explore"
-                                    data-link-type="primary cta">
-                                    <a class="cta_button" data-size="" data-variant="secondary" data-stacking="default"
-                                        aria-label="Bekijk alle brancheoplossingen"
-                                        href="/nl/solutions/industries/?d=cta-democards-9-ungated-industries-explore">
-                                        Bekijk alle brancheoplossingen
-                                    </a>
-                                </pbc-button>
-
-
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-                <div class="blade__background blade__background--partial-overlap" aria-hidden="true">
-
-
-
-
-
-
-
-
-
-
-                    <div
-                        class="background__graphics background__graphics--overlap background__graphics--with-background-image">
-
-                        <div class="blade__background-image">
-
-                            <img loading="lazy" src="assets2/images/hp-industries-page-break-bg.jpg" class="background__image"
-                                alt="" sizes="100vw"
-                                srcset="assets2/images/hp-industries-page-break-bg_1.jpg 150w, assets2/images/hp-industries-page-break-bg_3.jpg 300w, assets2/images/hp-industries-page-break-bg_2.jpg 768w, assets2/images/hp-industries-page-break-bg_4.jpg 1024w, assets2/images/hp-industries-page-break-bg_6.jpg 1536w, assets2/images/hp-industries-page-break-bg_5.jpg 2048w"
-                                width="100%">
-
-                        </div>
-
-
-
-
-
-
-
-
-
-                        <svg class="background__contour background__contour--overlap" viewBox="0 0 1440 98" fill="none">
-
-                            <path d="M0 99C222.344 35.8084 466.507 0 720 0C974.953 0 1216.61 35.1147 1440 99H0Z"
-                                fill="white"></path>
-
-                        </svg>
-
-
-
-                    </div>
-
-
-
-
-
-                    <div class="background__padding--partial-overlap"></div>
-
-
-                </div>
-
-            </section-->
-
-        </div>
         <div data-blade-id="1666893676768_1dv7" data-blade-position="5" data-blade-name="sf/trailheadmfe" data-blade-variant="trailheadmfe" data-blade-source="www" data-blade-type="blade">
-
-
             <section id="1666893676768_1dv7" class="relative thmfe--blade thmfe--link_below layout--3 thmfe--">
                 <div class="container  pb-64 mobile-pb-48   pt-24 mobile-pt-16 ">
-                    <div class="grid grid_main  thmfe  thmfe__3
-             thmfe__gridThree">
+                    <div class="grid grid_main  thmfe  thmfe__3             thmfe__gridThree">
 
                         <!--header class="thmfe__blade-heading text--center">
 
@@ -1241,10 +457,8 @@ $settings = session()->get('settings');
 
 
             </section>
-
         </div>
         <div data-blade-id="1666889765877_65u" data-blade-position="6" data-blade-name="sf/text" data-blade-variant="text" data-blade-source="www" data-blade-type="blade">
-
             <section id="1666889765877_65u" class="relative text--blade">
                 <div class="container  pb-64 mobile-pb-48   pt-24 mobile-pt-16 ">
                     <article class="grid grid_main  text--center" data-module-id="1666889765877_65u" data-module-name="Content in alle soorten en maten om jou te helpen groeien." data-module-position="1" data-module-type="headline">
@@ -1259,29 +473,19 @@ $settings = session()->get('settings');
                         </header>
                     </article>
                 </div>
-
             </section>
         </div>
         <div data-blade-id="1666889450153_lzh" data-blade-position="7" data-blade-name="sf/oneup" data-blade-variant="oneup" data-blade-source="www" data-blade-type="blade">
-
             <section id="1666889450153_lzh" class="relative oneup--blade oneup--right-image">
                 <div class="container  pb-64 mobile-pb-48   pt-24 mobile-pt-16 ">
 
                     <article class="grid grid_main grid--sixteenbynine" data-module-track-impressions="true" data-module-id="1666889450153_lzh" data-module-name="Wat is CRM?" data-module-position="1" data-module-type="headline">
-
                         <div class="image__wrapper">
-
-
                             <img loading="lazy" src="assets2/images/home-9.jpg" class="image__asset" alt="Ontdek CRM en hoe het bedrijfsgroei stimuleert." sizes="100vw" srcset="assets2/images/home-9.jpg 150w, assets2/images/home-9.jpg 300w, assets2/images/home-9.jpg 768w, assets2/images/home-9.jpg 1024w, assets2/images/home-9.jpg 1536w" height="576" width="1024">
-
                         </div>
-
-
                         <div class="content__wrapper">
                             <div class="content__container">
                                 <header class="oneup__blade-heading">
-
-
                                     <h2 class="headline" style="">
 
                                         Travsify Travel Api
@@ -1320,17 +524,12 @@ $settings = session()->get('settings');
         </div>
         <div data-blade-id="1666891503074_149u" data-blade-position="8" data-blade-name="sf/nup" data-blade-variant="nup" data-blade-source="www" data-blade-type="blade">
             <pbc-personalized contentzone="hp_resource_recs" blade-id="1666891503074_149u"></pbc-personalized>
-
         </div>
         <div data-blade-id="1680701969635_ml6" data-blade-position="9" data-blade-name="sf/nup" data-blade-variant="nup" data-blade-source="www" data-blade-type="blade">
             <section id="1680701969635_ml6" class="relative nup--blade  layout--3 nup--card_resource">
                 <div class="container  pb-64 mobile-pb-48   pt-64 mobile-pt-48 ">
-                    <div class="grid grid_main  nup  nup__3
-             nup__gridThree">
-
+                    <div class="grid grid_main  nup  nup__3             nup__gridThree">
                         <header class="nup__blade-heading text--center">
-
-
                             <h2 class="headline" style="">
 
                                 Travsify News Angle
@@ -1497,11 +696,9 @@ $settings = session()->get('settings');
 
         </div>
         <div data-blade-id="1666894353369_gep" data-blade-position="10" data-blade-name="sf/trailheadmfe" data-blade-variant="trailheadmfe" data-blade-source="www" data-blade-type="blade">
-
             <section id="1666894353369_gep" class="relative thmfe--blade thmfe--link_below layout--3 thmfe--">
                 <div class="container  pb-64 mobile-pb-48   pt-64 mobile-pt-48 ">
-                    <div class="grid grid_main  thmfe  thmfe__3
-             thmfe__gridThree">
+                    <div class="grid grid_main  thmfe  thmfe__3             thmfe__gridThree">
 
                         <header class="thmfe__blade-heading text--center">
 
@@ -1538,39 +735,22 @@ $settings = session()->get('settings');
                     </div>
                 </div>
             </section>
-
         </div>
         <div data-blade-id="1666894799477_99a" data-blade-position="11" data-blade-name="sf/oneup" data-blade-variant="oneup" data-blade-source="www" data-blade-type="blade">
-
             <section id="1666894799477_99a" class="relative oneup--blade oneup--left-image">
                 <div class="container  pb-64 mobile-pb-48   pt-24 mobile-pt-16 ">
-
                     <article class="grid grid_main grid--onebyone" data-module-track-impressions="true" data-module-id="1666894799477_99a" data-module-name="Onboard with our API and get a free IATA TIDs today!!!" data-module-position="1" data-module-type="headline">
-
                         <div class="image__wrapper">
-
-
                             <img loading="lazy" src="assets2/images/home-10.jpg" class="image__asset" alt="Logo's van apppartners zelrose, conga en Tableau." sizes="100vw" srcset="assets2/images/home-10.jpg 150w, assets2/images/home-10.jpg 300w, assets2/images/home-10.jpg 768w, assets2/images/home-10.jpg 1024w" height="1024" width="1024">
-
-
                         </div>
-
-
                         <div class="content__wrapper">
                             <div class="content__container">
                                 <header class="oneup__blade-heading">
-
-
                                     <h2 class="headline" style="">
-
                                         Onboard with our API and get a free IATA TIDs today!!!
-
                                     </h2>
-
-
                                     <div class="blade__description">
                                         <p>Start selling both local and international flight tickets today, with our robust flight API and issue ticket in your organisation name, address and phone number, just the way you have ever wanted</p>
-
                                     </div>
 
                                 </header>
@@ -1592,10 +772,8 @@ $settings = session()->get('settings');
             </section>
         </div>
         <div data-blade-id="1669676065695_1cl8" data-blade-position="12" data-blade-name="sf/oneup" data-blade-variant="oneup" data-blade-source="www" data-blade-type="blade">
-
             <section id="1669676065695_1cl8" class="relative oneup--blade oneup--center-image">
-                <div class="container  pb-64 mobile-pb-48   pt-64
-            mobile-pt-48 ">
+                <div class="container  pb-64 mobile-pb-48   pt-64            mobile-pt-48 ">
 
                     <article class="grid grid_main grid--sixteenbynine" data-module-track-impressions="true" data-module-id="1669676065695_1cl8" data-module-name="Probeer Salesforce 30 dagen gratis uit, zonder creditcard en zonder software-installatie.    " data-module-position="1" data-module-type="headline">
 
@@ -1636,23 +814,14 @@ $settings = session()->get('settings');
 
                     </article>
                 </div>
-
-
             </section>
         </div>
         <div data-blade-id="1699371073033_1785" data-blade-position="13" data-blade-name="sf/promotion" data-blade-variant="promotion" data-blade-source="www" data-blade-type="blade">
-
             <section id="1699371073033_1785" class="relative promotion--blade promotion--right-image">
                 <div class="container pb-shadow pb-large-corner  pb-64 mobile-pb-48   pt-64 mobile-pt-48 ">
                     <article class="grid grid_main promotion_layout--full_height" data-module-id="1699371073033_1785" data-module-name="Ontvang als eerste de updates en nieuwe ideeën in je inbox." data-module-position="1" data-module-type="headline">
-                        <div class="image__wrapper mobile-pt-0 
-             promotion_layout--full_height-image_wrapper relative
-             ">
-
-
+                        <div class="image__wrapper mobile-pt-0              promotion_layout--full_height-image_wrapper relative             ">
                             <img loading="lazy" src="assets2/images/home-11.jpg" class="image__asset" alt="" sizes="100vw" srcset="assets2/images/home-11.jpg 150w, assets2/images/home-11.jpg 300w, assets2/images/home-11.jpg 768w, assets2/images/home-11.jpg 1024w" height="1024" width="1024">
-
-
                         </div>
                         <div class="content__wrapper pt-64 mobile-pb-8 mobile-pt-40 mobile-ml-32 mobile-mr-32 pb-64 promotion_layout---image-content_wrapper">
                             <header class="promotion__blade-heading">
@@ -1691,94 +860,343 @@ $settings = session()->get('settings');
             </section>
         </div>
     </main>
-    <hgf-footer home-href="nl" origin="https://wp.sfdcdigital.com/nl-nl/wp-json">
-        <footer class="footerNavigation">
-            <div class="topFooterNavigation">
-                <div class="container slds-grid">
-                    <div class="slds-col slds-large-size_4-of-12">
-                        <!-- <div class="footer-logo"><a class="image-link" href="/nl/" data-tracking-type="logo"><img class="logo-img" alt="Salesforce Home" src="/assets2/images/logo.jpg"></a></div> -->
-                        <div class="footer-social-links">
-                            <div class="social-media-links"><a href="http://www.facebook.com/salesforceNL" target="_blank" title="Facebook" data-tracking-type="social"><svg class="salesforce-social-icon icon-facebook" alt="Facebook"></svg></a><a href="http://twitter.com/salesforce_NL" target="_blank" title="Twitter" data-tracking-type="social"><svg class="salesforce-social-icon icon-twitter" alt="Twitter"></svg></a><a href="http://www.linkedin.com/company/salesforce" target="_blank" title="LinkedIn" data-tracking-type="social"><svg class="salesforce-social-icon icon-linkedin" alt="LinkedIn"></svg></a><a href="https://instagram.com/salesforce/" target="_blank" title="Instagram" data-tracking-type="social"><svg class="salesforce-social-icon icon-instagram" alt="Instagram"></svg></a><a href="https://www.youtube.com/user/SalesforceNederland" target="_blank" title="Youtube" data-tracking-type="social"><svg class="salesforce-social-icon icon-youtube" alt="Youtube"></svg></a></div>
-                        </div>
-                        <div class="footer-phone-number">
-                            <div class="callus-link-text">
-                                <p><span>Bel ons 0800 020 0555</span></p>
+    <link rel="stylesheet" href="../assets2/css/all.bundle.d787c023a5b975d5b19d.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../assets2/css/webpack-style-manifest-formContainerV2-js.bundle.09269c0ac020a504a901.css">
+    
+    <footer role="contentinfo" class="bottom">
+            <div>
+                <div class="section">
+                    <div class="new"></div>
+                </div>
+                <div class="iparys_inherited">
+                    <div class="iparsys parsys">
+                        <div class="referenceComponent reference parbase section">
+                            <div class="cq-dd-paragraph">
+                                <div class="powerfooternavigatio powerFooterNavigationComponent columnContainer parbase">
+                                    <div class="columns-wrapper bg-snow hidden-xs hidden-sm">
+                                        <div class="container">
+                                            <div class="row columns-wrapper ">
+                                                <div class="col text-left col-sm-4 col-md-4 col-lg-4">
+                                                    <div class="footer-logo">
+                                                        <a href="/" class="image-link">
+                                                            <img class="   img-responsive  margin-40-top-lg margin-40-bottom-lg" alt="Salesforce Home" src="../assets2/images/logo.jpg" data-src="//www.salesforce.com/content/dam/web/en_us/www/../assets2/images/nav/logo.jpg">
+                                                        </a>
+                                                    </div>
+                                                    <div class="footer-social-links">
+                                                        <div class="social-media-links margin-10-bottom-lg">
+                                                            <a href="https://www.facebook.com/salesforce/?d=cta-glob-footer-1" target="_blank" title="Facebook">
+                                                                <img data-src="//www.salesforce.com/content/dam/web/global/svg-icons/facebook-day.svg?version=2023101" alt="Facebook" class="text-salesforce-gray salesforce-social-icon" src="//www.salesforce.com/content/dam/web/global/svg-icons/facebook-day.svg?version=2023101">
+                                                            </a>
+                                                            <a href="https://twitter.com/salesforce/?d=cta-glob-footer-2" target="_blank" title="Twitter">
+                                                                <img data-src="//www.salesforce.com/content/dam/web/global/svg-icons/twitter-day.svg?version=2023101" alt="Twitter" class="text-salesforce-gray salesforce-social-icon" src="//www.salesforce.com/content/dam/web/global/svg-icons/twitter-day.svg?version=2023101">
+                                                            </a>
+                                                            <a href="https://www.linkedin.com/company/salesforce/?d=cta-glob-footer-3" target="_blank" title="LinkedIn">
+                                                                <img data-src="//www.salesforce.com/content/dam/web/global/svg-icons/linkedin-day.svg?version=2023101" alt="LinkedIn" class="text-salesforce-gray salesforce-social-icon" src="//www.salesforce.com/content/dam/web/global/svg-icons/linkedin-day.svg?version=2023101">
+                                                            </a>
+                                                            <a href="https://instagram.com/salesforce/" target="_blank" title="Instagram">
+                                                                <img data-src="//www.salesforce.com/content/dam/web/global/svg-icons/instagram-day.svg?version=2023101" alt="Instagram" class="text-salesforce-gray salesforce-social-icon" src="//www.salesforce.com/content/dam/web/global/svg-icons/instagram-day.svg?version=2023101">
+                                                            </a>
+                                                            <a href="https://www.youtube.com/Salesforce/?d=cta-glob-footer-4" target="_blank" title="YouTube">
+                                                                <img data-src="//www.salesforce.com/content/dam/web/global/svg-icons/youtube-day.svg?version=2023101" alt="YouTube" class="text-salesforce-gray salesforce-social-icon" src="//www.salesforce.com/content/dam/web/global/svg-icons/youtube-day.svg?version=2023101">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="footer-phone-number">
+                                                        <div class="phoneNumberComponent_textLevel text-night text-left salesforce-sans-regular  hidden-md hidden-lg">
+                                                            <span class="phone-lead hidden-xs text-night">CALL US AT</span>
+                                                            <a class="display-phone text-night " href="tel:1-800-387-3285">
+                                                                <span class="hidden-lg hidden-md hidden-sm">
+                                                                    CALL US
+                                                                </span>
+                                                                <span class="hidden-xs">
+                                                                    +1-213-468-6786
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="footer-phone-number" id="notMobileFooterPhoneNumbers_level">
+                                                        <div class="headingComponent parbase section">
+                                                            <p id="call-us-at-1-800-664-9073" class="h3 text-night            text-left            salesforce-sans-regular            hidden-xs            " style="; ">
+                                                                <span class="   header-text                ">
+                                                                    Call us at +1-213-468-6786
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="headingComponent parbase section">
+                                                            <p id="see-all-ways-to-contact-us" class=" h4 text-night text-left            salesforce-sans-bold            margin-20-top-lg            " style="; ">
+                                                                <a class=" text-night                " href="/company/contact-us/?d=cta-glob-footer-10">
+                                                                    <span class="   header-text                ">
+                                                                        See all ways to contact us &gt;
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col text-left col-sm-3 col-md-3 col-lg-3">
+                                                    <div class="headingComponent parbase section">
+                                                        <h3 id="new-to-salesforce" class="h4 text-night text-left salesforce-sans-regular margin-60-top-lg margin-20-bottom-lg" style="; ">
+                                                            <span class="header-text">
+                                                                New to Salesforce?
+                                                            </span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="genericLinkListComponent list parbase section">
+                                                        <ul class="generic-links  margin-40-bottom-lg">
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/crm/what-is-crm/" class="text-cirrus">What is
+                                                                        CRM?</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/products/what-is-salesforce/?d=70130000000i7zF" class="text-cirrus">What is Salesforce</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/products/service-cloud/help-desk-software/?d=70130000000i80h" class="text-cirrus">Help Desk Software</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/products/sales-cloud/features/marketing-automation-software/?d=7010M000001yBiM" class="text-cirrus">Marketing Automation
+                                                                        Software</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/products/?d=70130000000i7zU" class="text-cirrus">Explore All Products</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/products/platform/best-practices/cloud-computing/?d=70130000000i88b" class="text-cirrus">What is Cloud Computing?</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/customer-success-stories/?d=70130000000i7zZ" class="text-cirrus">Customer Success</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/editions-pricing/overview/?d=70130000000i7ze" class="text-cirrus">Product Pricing</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/privacy/overview/" class="text-cirrus">Privacy
+                                                                        for Salesforce Products</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col text-left col-sm-3 col-md-3 col-lg-3">
+                                                    <div class="headingComponent parbase section">
+                                                        <h3 id="about-salesforce" class="h4 text-night text-left salesforce-sans-regular margin-60-top-lg margin-20-bottom-lg" style="; ">
+                                                            <span class="header-text">
+                                                                About Salesforce
+                                                            </span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="genericLinkListComponent list parbase section">
+                                                        <ul class="generic-links  ">
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/company/our-story/?d=70130000000i80N" class="text-cirrus">Our Story</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/news/?d=70130000000i80X" class="text-cirrus">Newsroom</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/blog/?d=70130000000i80c" class="text-cirrus">Blog</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/company/careers/?d=70130000000i80S" class="text-cirrus">Careers</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://trust.salesforce.com/en/?d=cta-glob-footer-5" target="_blank" class="text-cirrus">Trust</a>
+                                                                    <span class="salesforce-icon icon-sfdc-icon-offsite" role="img" aria-label="(opens in a new window)"></span>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.org/?d=cta-glob-footer-6" target="_blank" class="text-cirrus">Salesforce.org</a>
+                                                                    <span class="salesforce-icon icon-sfdc-icon-offsite" role="img" aria-label="(opens in a new window)"></span>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/company/sustainability/?d=70130000000i80J" class="text-cirrus">Sustainability</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://investor.salesforce.com/overview/default.aspx?d=cta-glob-footer-7" target="_blank" class="text-cirrus">Investors</a>
+                                                                    <span class="salesforce-icon icon-sfdc-icon-offsite" role="img" aria-label="(opens in a new window)"></span>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/company/feedback/?d=cta-glob-footer-9" class="text-cirrus">Give us your Feedback</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col text-left col-sm-2 col-md-2 col-lg-2">
+                                                    <div class="headingComponent parbase section">
+                                                        <h3 id="popular-links" class="    h4            text-night            text-left        salesforce-sans-regular            margin-60-top-lg margin-20-bottom-lg            " style="; ">
+                                                            <span class=" header-text            ">
+                                                                Popular Links
+                                                            </span>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="genericLinkListComponent list parbase section">
+                                                        <ul class="generic-links  ">
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="http://login.salesforce.com/lightning/n/standard-OnlineSalesHome%20" class="text-cirrus">Manage Your Account</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/products/innovation/" class="text-cirrus">New
+                                                                        Release Features</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/partners/" class="text-cirrus">Find or Become
+                                                                        a Partner</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/crm/?d=70130000000i80D" class="text-cirrus">CRM Software</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/video/?d=70130000000i80I" class="text-cirrus">Salesforce LIVE</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/dreamforce/?d=70130000000i808" target="_blank" class="text-cirrus">Dreamforce</a>
+                                                                    <span class="salesforce-icon icon-sfdc-icon-offsite" role="img" aria-label="(opens in a new window)"></span>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="https://www.salesforce.com/solutions/mobile/overview/?d=70130000000i7zy" class="text-cirrus">Salesforce Mobile</a>
+                                                                </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="li-wrap">
+                                                                    <a href="/form/other/role-based-newsletter/?d=cta-glob-footer-13" class="text-cirrus">Newsletter Sign-Up</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="slds-col slds-large-size_3-of-12">
-                        <div class="footer-heading">
-                            <h3><span class="head-text">Nieuw met Salesforced?</span></h3>
+                        <div class="referenceComponent reference parbase section">
+                            <div class="cq-dd-paragraph">
+                                <div class="footernavigationcomp footerNavigationComponent parbase">
+                                    <div class="page-footer">
+                                        <div class="container">
+                                            <div class="page-footer_content">
+                                                <div class="page-footer_legal">
+                                                    <p>© Copyright 2023 Travsify Global Inc.¦ &nbsp;<a href="/company/legal/intellectual/" adhocenable="false">All
+                                                            rights reserved</a>. | 635 Pine Ave, Pacific Grove, California,
+                                                        U.S.A. |  +12134686786 </p>
+                                                </div>
+                                                <nav class="page-footer_links mobile-display">
+                                                    <ul class="page-footer_links_list">
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="https://www.salesforce.com/company/legal/">
+                                                                Legal
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="/company/legal/sfdc-website-terms-of-service/">
+                                                                Terms of Service
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="/company/privacy/">
+                                                                Privacy Information
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="https://www.salesforce.com/company/disclosure/">
+                                                                Responsible Disclosure
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="https://trust.salesforce.com/en/" target="_blank">
+                                                                Trust
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="https://www.salesforce.com/company/contact-us/?d=cta-glob-footer-11">
+                                                                Contact
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link optanon-toggle-display" href="#" data-ignore-geolocation="true">
+                                                                Cookie Preferences
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-footer_links_item">
+                                                            <a class="page-footer_link " href="/form/other/privacy-request/?d=cta-footer-1">
+                                                                <img alt="" class="footer-link-icon footer-link-icon_left" src="../assets2/images/icon-cpra.svg">Your Privacy
+                                                                Choices
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <ul class="generic-links">
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/products/what-is-salesforce/" data-tracking-type="vertical_list">Wat is Salesforce?</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/learning-centre/crm/what-is-crm/" data-tracking-type="vertical_list">Wat is CRM?</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/learning-centre/tech/cloudcomputing/" data-tracking-type="vertical_list">Wat is Cloud Computing</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/products/" data-tracking-type="vertical_list">CRM Oplossingen</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/customer-success-stories/" data-tracking-type="vertical_list">Succesverhalen van onze Klanten</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/editions-pricing/sales-cloud/" data-tracking-type="vertical_list">Prijzen en Edities</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/form/contact/contactme/" data-tracking-type="vertical_list">Contact</a></span></li>
-                            </ul>
+                        <div class="referenceComponent reference parbase section">
+                            <div class="cq-dd-paragraph">
+                                <div class="dockedcontainer dockedContainer parbase">
+                                    <div class="docked-container  margin-20-right-lg fixed">
+                                        <div class="fixedFooterCTAItemComponent parbase section">
+                                        </div>
+                                        <div class="fixedFooterCTAItemComponent parbase section">
+                                        </div>
+                                        <div class="randomImageComponent list parbase section">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="slds-col slds-large-size_3-of-12">
-                        <div class="footer-heading">
-                            <h3><span class="head-text">Populaire links</span></h3>
-                        </div>
-                        <div>
-                            <ul class="generic-links">
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/solutions/small-business-solutions/overview/" data-tracking-type="vertical_list">CRM voor het MKB</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/products/sales-cloud/overview/" data-tracking-type="vertical_list">Verkoop Oplossingen</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/products/service-cloud/overview/" data-tracking-type="vertical_list">Klantenservice Oplossingen</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/products/marketing-cloud/overview/" data-tracking-type="vertical_list">Digital Marketing Oplossingen</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/solutions/industries/" data-tracking-type="vertical_list">Industries</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/resources/" data-tracking-type="vertical_list">Informatiecentrum</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/events/" data-tracking-type="vertical_list">Salesforce Evenementen</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="slds-col slds-large-size_3-of-12">
-                        <div class="footer-heading">
-                            <h3><span class="head-text">Over Salesforce</span></h3>
-                        </div>
-                        <div>
-                            <ul class="generic-links">
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/company/our-story/" data-tracking-type="vertical_list">Onze Cultuur</a></span></li>
-                                <li><span class="li-wrap"><a href="https://careers.salesforce.com/en/our-locations/europe-middle-east-and-africa/netherlands/" data-tracking-type="vertical_list">Werken bij Salesforce</a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/company/news-press/press-releases/" data-tracking-type="vertical_list">Pers</a></span></li>
-                                <li><span class="li-wrap"><a href="https://trust.salesforce.com/nl/" target="_blank" data-tracking-type="vertical_list"> Beveiliging<span role="img" class="salesforce-icon icon-sfdc-icon-offsite" aria-label="(opens in a new window)"></span></a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/company/sustainability/" target="_blank" data-tracking-type="vertical_list"> Duurzaamheid<span role="img" class="salesforce-icon icon-sfdc-icon-offsite" aria-label="(opens in a new window)"></span></a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/company/legal/" target="_blank" data-tracking-type="vertical_list"> Juridische informatie<span role="img" class="salesforce-icon icon-sfdc-icon-offsite" aria-label="(opens in a new window)"></span></a></span></li>
-                                <li><span class="li-wrap"><a href="https://www.salesforce.com/nl/blog/" data-tracking-type="vertical_list">Salesforce Blog</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="page-footer bottomFooterNavigation">
-                <div class="container"><hgf-regionselector></hgf-regionselector>
-                    <div class="page-footer_content">
-                        <div class="page-footer_legal">
-                            <p>© Copyright 2023 Travsify Global Inc.  <a href="/company/legal/intellectual/" adhocenable="false">All rights reserved</a>.| 635 Pine Ave, Pacific Grove, California, U.S.A. |  +12134686786 </p>
-                        </div>
-                        <nav class="page-footer_links mobile-display">
-                            <ul class="page-footer_links_list">
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="https://www.salesforce.com/company/legal/" data-tracking-type="ribbon">Juridische informatie</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/" data-tracking-type="ribbon">Terms of Service</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="https://www.salesforce.com/nl/company/privacy" data-tracking-type="ribbon">Privacyverklaring</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="https://www.salesforce.com/nl/company/disclosure/" data-tracking-type="ribbon">Responsible Disclosure</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="https://www.salesforce.com/nl/form/contact/contactme/" data-tracking-type="ribbon">Contact</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="https://trust.salesforce.com/nl/" data-tracking-type="ribbon">Trust</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link optanon-toggle-display" href="#" data-ignore-geolocation="true" data-tracking-type="ribbon">Cookie-voorkeuren</a></li>
-                                <li class="page-footer_links_item"><a class="page-footer_link" href="/form/other/privacy-request/?d=cta-footer-1" data-tracking-type="ribbon"><svg class="bottom-footer-icon icon-cpra" alt=""></svg>Uw privacybeslissingen</a></li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
             </div>
         </footer>
-    </hgf-footer>
 
     <div class="sf-call">
         <div class="call-btn-wrapper">

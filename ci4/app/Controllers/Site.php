@@ -21,9 +21,9 @@ class Site extends BaseController
     public function index()
     {
         $data = [];
-        //echo view(getenv('theme.frontend.path').'main/header');
+        echo view(getenv('theme.frontend.path').'main/header');
         echo view(getenv('theme.frontend.path').'form/index',$data);
-        //echo view(getenv('theme.frontend.path').'main/footer');
+        // echo view(getenv('theme.frontend.path').'main/footer');
     }
 
     public function about()
@@ -53,9 +53,9 @@ class Site extends BaseController
     public function contact()
     {
         $data = [];
-        //echo view(getenv('theme.frontend.path').'main/header');
+        // echo view(getenv('theme.frontend.path').'main/header');
         echo view(getenv('theme.frontend.path').'form/contact',$data);
-        //echo view(getenv('theme.frontend.path').'main/footer');
+        // echo view(getenv('theme.frontend.path').'main/footer');
     }
 
     public function faq()

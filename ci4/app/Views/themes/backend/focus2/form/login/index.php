@@ -73,7 +73,7 @@
                                 </form>
 
                                 <?php if ($settings['registration'] ?? false) : ?>
-                                    <h6 class="pt-4 text-white"><?= lang("App.login_signup_desc") ?> <a href="<?= site_url('login/signup'); ?>" class="text-primary"><?= lang("App.login_signup") ?></a></h6>
+                                    <h6 class="pt-4 text-white" style="color: #e88015 !important;"><?= lang("App.login_signup_desc") ?> <a href="<?= site_url('login/signup'); ?>" class="text-primary"><?= lang("App.login_signup") ?></a></h6>
                                 <?php endif; ?>
                             </div>
                         </div>

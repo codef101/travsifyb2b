@@ -1,13 +1,18 @@
 <link href="<?= site_url('assets/vendor/intl-tel-input/build/css/intlTelInput.min.css'); ?>" rel="stylesheet">
-<div class="authincation h-100">
-    <div class="container-fluid h-100">
-        <div class="row justify-content-center h-100 align-items-center">
-            <div class="col-md-4">
-                <div class="authincation-content">
+<div class="authincation h-100" style="background-image: url('https://myfarebox.com/images/poster.jpg'); background-size: cover;">
+    <div class="container d-flex w-100 h-100 justify-content-center h-100 align-items-center">
+        <div class="row justify-content-center align-items-start">
+            <div class="d-none d-md-block col-md-6 pt-5">
+                <h1 class="text-white mx-3">HUB OF THE BEST
+                    AIRFARE DEALS IN THE WORLD</h1>
+                <p class="fs-3 m-3">Travel technology that provides access to the lowest global airfares from 600+ full service and 180+ low cost airlines, sourced from 70+ point of sale countries on a single platform</p>
+            </div>
+            <div class="col-md-6 ">
+                <div class="authincation-content bg-dark">
                     <div class="row no-gutters">
                         <div class="col-xl-12">
                             <div class="auth-form">
-                                <h4 class="text-center mb-4"><?= lang("App.login_title_signup") ?></h4>
+                                <h4 class="text-light mb-3"><?= lang("App.login_title_signup") ?></h4>
                                 <?= formAlert() ?>
                                 <form action="<?=site_url("login/store")?>" id="sendForm" method="post">
                                     <?= csrf_field() ?>
@@ -96,10 +101,10 @@
                                         <?php endif; ?>
                                     <?php endif; ?>
                                     <div class="text-center">
-                                        <button type="button" class="btn btn-primary btn-block" onclick="validate()"><?= lang("App.login_register") ?></button>
+                                        <button  style="background: #e88015;border: 1px solid #e88015;" type="button" class="btn btn-primary btn-block" onclick="validate()"><?= lang("App.login_register") ?></button>
                                     </div>
-                                    <div class="text-center mt-1">
-                                        <button type="button" class="btn btn-dark btn-block" onclick="window.location.href = '<?=site_url("login")?>';"><?= lang("App.login_come_back") ?></button>
+                                    <div class="text-center mt-3">
+                                        <button  style="background: #fff;border: 1px solid #fff;color:black" type="button" class="btn btn-dark btn-block" onclick="window.location.href = '<?=site_url("login")?>';"><?= lang("App.login_come_back") ?></button>
                                     </div>
                                     <p class="text-primary" id="msg" style="display: none;"><i class="fas fa-spinner fa-pulse"></i> <?= lang("App.login_wait") ?></p>
                                 </form>

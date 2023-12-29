@@ -25,16 +25,6 @@ $settings = session()->get('settings');
     <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
     <meta name="description" content="<?= $settings['seo_description'] ?? '' ?>">
     <link rel="canonical" href="https://travsifyb2b.com/">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Salesforce",
-            "url": "https://www.salesforce.com"
-        }
-    </script>
-
-
     <link rel="preconnect" href="//a.sfdcstatic.com">
     <link rel="preconnect" href="//www.googletagmanager.com">
     <link rel="preconnect" href="//www.google-analytics.com">
@@ -78,7 +68,7 @@ $settings = session()->get('settings');
             }
         })
     </script>
-    <script type="text/javascript" src="../assets2/js/top.js"></script>
+    <!-- <script type="text/javascript" src="../assets2/js/top.js"></script> -->
     <script async="" type="text/javascript" src="../assets2/js/otSDKStub.js" data-domain-script="8e783e8c-0ad0-475d-8fca-4a03afa0a02a" crossorigin=""></script>
     <script defer="" type="text/javascript" src="../assets2/js/bottom.js"></script>
     <script defer="" type="text/javascript" src="../assets2/js/ot-ext.js"></script>
@@ -94,7 +84,19 @@ $settings = session()->get('settings');
         <!-- Core theme CSS (includes Bootstrap)-->
     <link href="<?= site_url('/themes/startbootstrap/css/styles.css');?>" rel="stylesheet" />
     <link rel="stylesheet" href="<?= site_url('assets/vendor/cookieconsent/dist/cookieconsent.css'); ?>" media="print" onload="this.media='all'">
-
+    <link rel="preload" href="//www.salesforce.com/etc.bundles/sfdc-www/bundles/all.bundle.d787c023a5b975d5b19d.css" as="style">
+    <link rel="preload" href="//www.salesforce.com/etc.bundles/sfdc-www/bundles/vendors~scriptloader.bundle.09269c0ac020a504a901.js" as="script">
+    <link rel="preload" href="//www.salesforce.com/etc.bundles/sfdc-www/bundles/scriptloader.bundle.09269c0ac020a504a901.js" as="script">
+    <link rel="preload" href="//www.salesforce.com/etc.bundles/sfdc-www/bundles/vendors~utils~webpack-script-manifest-SfdcWwwBaseCnc-js~webpack-script-manifest-commonlyUsed-js~webp~72b17f21.bundle.09269c0ac020a504a901.js" as="script">
+    <link rel="preload" href="//www.salesforce.com/etc.bundles/sfdc-www/bundles/vendors~utils~webpack-script-manifest-SfdcWwwBaseCnc-js~webpack-script-manifest-commonlyUsed-js~webp~8dbeef75.bundle.09269c0ac020a504a901.js" as="script">
+    <link rel="preload" href="//www.salesforce.com/etc.bundles/sfdc-www/bundles/utils.bundle.09269c0ac020a504a901.js" as="script">
+   <script type="text/javascript">
+        var SfdcWwwBase = SfdcWwwBase || {};
+        SfdcWwwBase.linkedDataParameters = {
+            organizationSchema: "[\n{   \x22@context\x22:\x22https:\/\/schema.org\x22,\n         \x22@type\x22:\x22Organization\x22,\n         \x22@id\x22:\x22https:\/\/www.salesforce.com\/#organization\x22,\n         \x22url\x22:\x22https:\/\/www.salesforce.com\/\x22,\n         \x22name\x22:\x22Salesforce\x22,\n    \x22sameAs\x22: [\n          \x22https:\/\/www.wikidata.org\/wiki\/Q941127\x22,\n          \x22https:\/\/en.wikipedia.org\/wiki\/Salesforce\x22,\n          \x22https:\/\/www.crunchbase.com\/organization\/salesforce\x22,\n          \x22https:\/\/www.instagram.com\/salesforce\/\x22,\n          \x22https:\/\/www.facebook.com\/salesforce\x22,\n          \x22https:\/\/twitter.com\/salesforce\x22,\n          \x22https:\/\/www.linkedin.com\/company\/salesforce\/\x22,\n          \x22https:\/\/www.youtube.com\/Salesforce\/\x22],\n    \x22subOrganization\x22: [\n          {\n          \x22@type\x22: \x22Organization\x22,\n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/eu\/#organization\x22,\n          \x22name\x22: \x22Salesforce EMEA\x22 },\n          {\n          \x22@type\x22: \x22Organization\x22,\n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/uk\/#organization\x22,\n          \x22name\x22: \x22Salesforce UK\x22   },\n          {   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/mx\/#organization\x22, \n          \x22name\x22: \x22Salesforce LATAM\x22  },\n          {   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/br\/#organization\x22, \n          \x22name\x22: \x22Salesforce Brazil\x22 },\n          {   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/ca\/#organization\x22, \n          \x22name\x22: \x22Salesforce Canada\x22 },\n          {   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/fr\u002Dca\/#organization\x22,  \n          \x22name\x22: \x22Salesforce Canada (French)\x22 },\n          {   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/es\/#organization\x22, \n          \x22name\x22: \x22Salesforce España\x22},\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/de\/#organization\x22, \n          \x22name\x22: \x22Salesforce Deutschland\x22},\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/fr\/#organization\x22, \n          \x22name\x22: \x22Salesforce France\x22},\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/it\/#organization\x22, \n          \x22name\x22: \x22Salesforce Italia\x22},\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/nl\/#organization\x22, \n          \x22name\x22: \x22Salesforce Nederland\x22},\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/se\/#organization\x22, \n          \x22name\x22: \x22Salesforce Sverige\x22},\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/au\/#organization\x22, \n          \x22name\x22: \x22Salesforce Australia\x22  },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/in\/#organization\x22, \n          \x22name\x22: \x22Salesforce India\x22  },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/jp\/#organization\x22, \n          \x22name\x22: \x22Salesforce 日本\x22  },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/cn\/#organization\x22, \n          \x22name\x22: \x22Salesforce 中国 \x22  },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/hk\/#organization\x22, \n          \x22name\x22: \x22Salesforce 香港\x22  },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/tw\/#organization\x22, \n          \x22name\x22: \x22Salesforce 台灣\x22 },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/kr\/#organization\x22, \n          \x22name\x22: \x22Salesforce 한국\x22  },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/my\/#organization\x22, \n          \x22name\x22: \x22Salesforce Malaysia\x22 },\n{   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/th\/#organization\x22, \n          \x22name\x22: \x22Salesforce ประเทศไทย\x22 },\n          {   \n          \x22@type\x22: \x22Organization\x22,  \n          \x22@id\x22: \x22https:\/\/www.salesforce.com\/ap\/#organization\x22, \n          \x22name\x22: \x22Salesforce APAC\x22 }\n          ],\n    \x22logo\x22:\x22https:\/\/www.sfdcstatic.com\/common\/assets\/img\/logo\u002Dcompany\u002Dlarge.png\x22,\n    \x22address\x22:{ \n            \x22@type\x22:\x22PostalAddress\x22,\n            \x22streetAddress\x22:\x22415 Mission Street, 3rd Floor\x22,\n            \x22addressLocality\x22:\x22San Francisco\x22,\n            \x22addressRegion\x22:\x22CA\x22,\n            \x22postalCode\x22:\x2294105\x22,\n            \x22addressCountry\x22:\x22USA\x22\n         },\n    \x22contactPoint\x22:[ \n            { \n               \x22@type\x22:\x22ContactPoint\x22,\n               \x22telephone\x22:\x22+1\u002D800\u002D667\u002D6389\x22,\n              \x22contactOption\x22:\x22TollFree\x22,\n             \x22areaServed\x22: [\x22US\x22,\x22CA\x22],\n               \x22contactType\x22:\x22customer service\x22,\n               \x22availableLanguage\x22:{ \n                  \x22@type\x22:\x22Language\x22,\n                  \x22name\x22:\x22English\x22\n               }\n            },\n            { \n               \x22@type\x22:\x22ContactPoint\x22,\n               \x22telephone\x22:\x22+1\u002D800\u002DNO\u002DSOFTWARE\x22,\n               \x22contactOption\x22:\x22TollFree\x22,\n             \x22areaServed\x22: [\x22US\x22,\x22CA\x22],\n               \x22contactType\x22:[\x22sales\x22, \x22billing support\x22, \x22technical support\x22],\n               \x22availableLanguage\x22:{ \n                  \x22@type\x22:\x22Language\x22,\n                  \x22name\x22:\x22English\x22\n               }\n            }\n         ]\n            },\n{\n  \x22@context\x22:\x22https:\/\/schema.org\x22,\n  \x22@type\x22:\x22WebSite\x22,\n  \x22@id\x22:\x22https:\/\/www.salesforce.com\/#website\x22,\n  \x22name\x22:\x22Salesforce\x22,\n  \x22url\x22:\x22https:\/\/www.salesforce.com\/\x22,\n  \x22sameAs\x22:[\n\x22https:\/\/www.salesforce.com\/ap\/#website\x22,\n\x22https:\/\/www.salesforce.com\/au\/#website\x22,\n\x22https:\/\/www.salesforce.com\/br\/#website\x22,\n\x22https:\/\/www.salesforce.com\/ca\/#website\x22,\n\x22https:\/\/www.salesforce.com\/cn\/#website\x22,\n\x22https:\/\/www.salesforce.com\/de\/#website\x22,\n\x22https:\/\/www.salesforce.com\/es\/#website\x22,\n\x22https:\/\/www.salesforce.com\/eu\/#website\x22,\n\x22https:\/\/www.salesforce.com\/fr\u002Dca\/#website\x22,\n\x22https:\/\/www.salesforce.com\/fr\/#website\x22,\n\x22https:\/\/www.salesforce.com\/hk\/#website\x22,\n\x22https:\/\/www.salesforce.com\/in\/#website\x22,\n\x22https:\/\/www.salesforce.com\/it\/#website\x22,\n\x22https:\/\/www.salesforce.com\/jp\/#website\x22,\n\x22https:\/\/www.salesforce.com\/kr\/#website\x22,\n\x22https:\/\/www.salesforce.com\/mx\/#website\x22,\n\x22https:\/\/www.salesforce.com\/my\/#website\x22,\n\x22https:\/\/www.salesforce.com\/nl\/#website\x22,\n\x22https:\/\/www.salesforce.com\/se\/#website\x22,\n\x22https:\/\/www.salesforce.com\/th\/#website\x22,\n\x22https:\/\/www.salesforce.com\/tw\/#website\x22,\n\x22https:\/\/www.salesforce.com\/uk\/#website\x22\n  ],\n  \x22publisher\x22:{\n    \x22@id\x22:\x22https:\/\/www.salesforce.com\/#organization\x22\n  },\n  \x22potentialAction\x22:{\n    \x22@type\x22:\x22SearchAction\x22,\n    \x22target\x22:\x22https:\/\/www.salesforce.com\/search\/#q={term}\x26sort=relevancy\x22,\n    \x22query\u002Dinput\x22:\x22required name=term\x22\n  }\n}\n]",
+            uninheritableSchema: ""
+        };
+    </script>
     <script>
         (window.BOOMR_mq = window.BOOMR_mq || []).push(["addVar", {
             "rua.upush": "false",
@@ -112,124 +114,6 @@ $settings = session()->get('settings');
             "rua.isuxp": "false",
             "rua.texp": "norulematch"
         }]);
-    </script>
-    <script>
-        // ! function(e) {
-        //     var n = "https://s.go-mpulse.net/boomerang/";
-        //     if ("False" == "True") e.BOOMR_config = e.BOOMR_config || {}, e.BOOMR_config.PageParams = e.BOOMR_config.PageParams || {}, e.BOOMR_config.PageParams.pci = !0, n = "https://s2.go-mpulse.net/boomerang/";
-        //     if (window.BOOMR_API_key = "NCPYV-VGJPP-N4J93-8HN3B-8B6S3", function() {
-        //             function e() {
-        //                 if (!o) {
-        //                     var e = document.createElement("script");
-        //                     e.id = "boomr-scr-as", e.src = window.BOOMR.url, e.async = !0, i.parentNode.appendChild(e), o = !0
-        //                 }
-        //             }
-
-        //             function t(e) {
-        //                 o = !0;
-        //                 var n, t, a, r, d = document,
-        //                     O = window;
-        //                 if (window.BOOMR.snippetMethod = e ? "if" : "i", t = function(e, n) {
-        //                         var t = d.createElement("script");
-        //                         t.id = n || "boomr-if-as", t.src = window.BOOMR.url, BOOMR_lstart = (new Date).getTime(), e = e || d.body, e.appendChild(t)
-        //                     }, !window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]\./)) return window.BOOMR.snippetMethod = "s", void t(i.parentNode, "boomr-async");
-        //                 a = document.createElement("IFRAME"), a.src = "about:blank", a.title = "", a.role = "presentation", a.loading = "eager", r = (a.frameElement || a).style, r.width = 0, r.height = 0, r.border = 0, r.display = "none", i.parentNode.appendChild(a);
-        //                 try {
-        //                     O = a.contentWindow, d = O.document.open()
-        //                 } catch (_) {
-        //                     n = document.domain, a.src = "javascript:var d=document.open();d.domain='" + n + "';void(0);", O = a.contentWindow, d = O.document.open()
-        //                 }
-        //                 if (n) d._boomrl = function() {
-        //                     this.domain = n, t()
-        //                 }, d.write("<bo" + "dy onload='document._boomrl();'>");
-        //                 else if (O._boomrl = function() {
-        //                         t()
-        //                     }, O.addEventListener) O.addEventListener("load", O._boomrl, !1);
-        //                 else if (O.attachEvent) O.attachEvent("onload", O._boomrl);
-        //                 d.close()
-        //             }
-
-        //             function a(e) {
-        //                 window.BOOMR_onload = e && e.timeStamp || (new Date).getTime()
-        //             }
-        //             if (!window.BOOMR || !window.BOOMR.version && !window.BOOMR.snippetExecuted) {
-        //                 window.BOOMR = window.BOOMR || {}, window.BOOMR.snippetStart = (new Date).getTime(), window.BOOMR.snippetExecuted = !0, window.BOOMR.snippetVersion = 12, window.BOOMR.url = n + "NCPYV-VGJPP-N4J93-8HN3B-8B6S3";
-        //                 var i = document.currentScript || document.getElementsByTagName("script")[0],
-        //                     o = !1,
-        //                     r = document.createElement("link");
-        //                 if (r.relList && "function" == typeof r.relList.supports && r.relList.supports("preload") && "as" in r) window.BOOMR.snippetMethod = "p", r.href = window.BOOMR.url, r.rel = "preload", r.as = "script", r.addEventListener("load", e), r.addEventListener("error", function() {
-        //                     t(!0)
-        //                 }), setTimeout(function() {
-        //                     if (!o) t(!0)
-        //                 }, 3e3), BOOMR_lstart = (new Date).getTime(), i.parentNode.appendChild(r);
-        //                 else t(!1);
-        //                 if (window.addEventListener) window.addEventListener("load", a, !1);
-        //                 else if (window.attachEvent) window.attachEvent("onload", a)
-        //             }
-        //         }(), "".length > 0)
-        //         if (e && "performance" in e && e.performance && "function" == typeof e.performance.setResourceTimingBufferSize) e.performance.setResourceTimingBufferSize();
-        //     ! function() {
-        //         if (BOOMR = e.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) {
-        //             var n = "" == "true" ? 1 : 0,
-        //                 t = "",
-        //                 a = "yjlr743in27rwzkxpmia-f-32c34bbea-clientnsv4-s.akamaihd.net",
-        //                 i = "false" == "true" ? 2 : 1,
-        //                 o = {
-        //                     "ak.v": "36",
-        //                     "ak.cp": "1410510",
-        //                     "ak.ai": parseInt("638429", 10),
-        //                     "ak.ol": "0",
-        //                     "ak.cr": 12,
-        //                     "ak.ipv": 4,
-        //                     "ak.proto": "http/1.1",
-        //                     "ak.rid": "7860de",
-        //                     "ak.r": 43444,
-        //                     "ak.a2": n,
-        //                     "ak.m": "dsca",
-        //                     "ak.n": "essl",
-        //                     "ak.bpcip": "194.87.31.0",
-        //                     "ak.cport": 41746,
-        //                     "ak.gh": "23.72.253.155",
-        //                     "ak.quicv": "",
-        //                     "ak.tlsv": "tls1.3",
-        //                     "ak.0rtt": "",
-        //                     "ak.csrc": "-",
-        //                     "ak.acc": "bbr",
-        //                     "ak.t": "1700231952",
-        //                     "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==H+uhRB8ZODKYPmVZVAQ34f5BlSG41b0H5h0Xjsth/XxGjFA4cdgLCcqKXJLnsflGuyla/FD9aWbPlGAYy15wg2U9AW5+enkrF/WP6zjlg0a96E246NME0lKamoBTdkLSOfiPGPrtX/N+9QCra8pWPPuPXJwfShMctkrWPbwEBoXiEOBCeONDJekzOeFoxef1QdeolU07T2/MVq5UY4zKFCRFinxCj0zoMnluoLuUKiuWKk+d6KDp3oynNQiz8I5weEiFK78WZZQ4IB2Bs5X0dT/aCquOgk/OPGqdOuu3TErlbEc/S6q8wLIHpQXJoCV9k9wuwJJV5y8yvQanrCa7IT6wa4YoYwGjMLvXWgLmZHqZ8H0kOLi7OOMQyD8srYUG/b/+/KjyZQcqRgJ45BNWaXwTsmxNswLIpcJy0V3qFRc=",
-        //                     "ak.pv": "436",
-        //                     "ak.dpoabenc": "",
-        //                     "ak.tf": i
-        //                 };
-        //             if ("" !== t) o["ak.ruds"] = t;
-        //             var r = {
-        //                 i: !1,
-        //                 av: function(n) {
-        //                     var t = "http.initiator";
-        //                     if (n && (!n[t] || "spa_hard" === n[t])) o["ak.feo"] = void 0 !== e.aFeoApplied ? 1 : 0, BOOMR.addVar(o)
-        //                 },
-        //                 rv: function() {
-        //                     var e = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"];
-        //                     BOOMR.removeVar(e)
-        //                 }
-        //             };
-        //             BOOMR.plugins.AK = {
-        //                 akVars: o,
-        //                 akDNSPreFetchDomain: a,
-        //                 init: function() {
-        //                     if (!r.i) {
-        //                         var e = BOOMR.subscribe;
-        //                         e("before_beacon", r.av, null, null), e("onbeacon", r.rv, null, null), r.i = !0
-        //                     }
-        //                     return this
-        //                 },
-        //                 is_complete: function() {
-        //                     return !0
-        //                 }
-        //             }
-        //         }
-        //     }()
-        // }(window);
     </script>
 </head>
 
@@ -412,6 +296,5 @@ $settings = session()->get('settings');
         <hgf-c360nav locale="us" search="true" show-region-selector="true" context-nav-enabled="false" hide-login="false" truly-hide-login="false" show-button-main="true" show-button-secondary="false" hide-contact="false" origin="https://wp.sfdcdigital.com/en-us/wp-json">
 
         </hgf-c360nav>
-
-
+        <div class="c360-spacer" data-has-context-nav="false"></div>
     </div>
