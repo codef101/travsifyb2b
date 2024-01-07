@@ -436,8 +436,53 @@
                                                                             </div>
                                                                             <!--*/ Form header for dynamic event forms */-->
                                                                         </div>
+                                                                        <?php
+                                                                        // Initialize variables to store form data and success message
+                                                                        $name = $email = $message = $successMessage = '';
+
+                                                                        // Check if the form is submitted
+                                                                        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                                                            // Sanitize and validate form data
+                                                                            $name = sanitizeInput($_POST['name']);
+                                                                            $email = sanitizeInput($_POST['email']);
+                                                                            $message = sanitizeInput($_POST['message']);
+
+                                                                            // Perform additional validation if needed
+
+                                                                            // Process the form data or save it to a database
+                                                                            // For demonstration purposes, we'll just display the submitted data
+                                                                            echo "<p>Submitted Data:</p>";
+                                                                            echo "<p>Name: $name</p>";
+                                                                            echo "<p>Email: $email</p>";
+                                                                            echo "<p>Message: $message</p>";
+
+                                                                            // Send an email
+                                                                            $to = "recipient@example.com"; // Change this to the actual recipient email address
+                                                                            $subject = "New Form Submission";
+                                                                            $headers = "From: $email";
+
+                                                                            if (mail($to, $subject, $message, $headers)) {
+                                                                                $successMessage = "Email sent successfully!";
+                                                                            } else {
+                                                                                $successMessage = "Failed to send email. Please try again.";
+                                                                            }
+                                                                        }
+
+                                                                        // Function to sanitize form input
+                                                                        function sanitizeInput($data)
+                                                                        {
+                                                                            $data = trim($data);
+                                                                            $data = stripslashes($data);
+                                                                            $data = htmlspecialchars($data);
+                                                                            return $data;
+                                                                        }
+                                                                        ?>
+
+                                                                        <?php if (!empty($successMessage)) : ?>
+                                                                            <p><?php echo $successMessage; ?></p>
+                                                                        <?php endif; ?>
                                                                         <!--*/ this is an override to ensure DB fields are never hidden if 'hide prefilled fields' is set to false */-->
-                                                                        <form name="reg_form" method="post" class="form-builder-form   sfdc-form-adaptive-label   " data-sfdc-form="dynamic:true,signup:false,event:false,paginated:false,formType:lead,cookieRead:true,cookieWrite:true,closeTimeout:-1,minHeight:,disableDB:false,locale:en_us,submitEvent:">
+                                                                        <form action=""  name="contactform" method="post" class="form-builder-form   sfdc-form-adaptive-label   " data-sfdc-form="dynamic:true,signup:false,event:false,paginated:false,formType:lead,cookieRead:true,cookieWrite:true,closeTimeout:-1,minHeight:,disableDB:false,locale:en_us,">
                                                                             <input type="hidden" name="skipForm" value="false">
                                                                             <input type="hidden" name="mcloudFormName" value="GLOB_MAIN_T2L1_OCMS_LCS1">
                                                                             <input type="hidden" name="conf_page">
@@ -1068,22 +1113,6 @@
                                                                                         Interest</label>
                                                                                     <span class="error-msg">Select your
                                                                                         product interest</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="checkboxInput section">
-                                                                                <div class="hide" aria-hidden="true" data-legal-type="optIn">
-                                                                                    <!-- Hide legal optIn field by default to avoid visual flicker -->
-                                                                                    <div class="field">
-                                                                                        <input class="sr-only" type="checkbox" id="Lead.InfoEmail__c" name="Lead.InfoEmail__c" value="Lead.InfoEmail__c">
-                                                                                        <div class="checkbox-ui" data-input-check=""></div>
-                                                                                        <div class="checkbox-ui-label">
-                                                                                            Yes, I would like to receive
-                                                                                            marketing communications
-                                                                                            regarding Salesforce products,
-                                                                                            services, and events. I can
-                                                                                            unsubscribe at a later time.
-                                                                                        </div>
-                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="checkboxInput section">

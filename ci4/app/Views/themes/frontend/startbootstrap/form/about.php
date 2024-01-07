@@ -19,20 +19,17 @@
             <!-- About section one-->
             <section class="py-5 bg-light" id="scroll-target">
                 <div class="container px-5 my-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
-                        <div class="col-lg-6">
-                            <h2 class="fw-bolder">Our Vision</h2>
-                            <p class="lead fw-normal text-muted mb-0">
-                                Travsify Global Inc. - Pioneering the Future of Air Travel
-                                <br>
-                                In envisioning the future, Travsify Global stands as a beacon of innovation and transformation in the air and hotel travel industry. Our vision is to continue redefining the landscape of travel supply chains, pushing the boundaries of what's possible, and setting new standards for excellence. We see a future where Travsify Global remains at the forefront, not just as a solution provider but as a driving force shaping the very essence of air travel.
-                                <br>
-                                Advancing with Technology and Innovation
-                                <br>
-                                At the core of our vision is a commitment to advancing technology and fostering innovation. We see Travsify Global not only adapting to the changing technological landscape but leading the charge. We envision a continuous exploration of cutting-edge solutions, ensuring that our Travsify White Label and Plugins evolves with the latest advancements, setting benchmarks for the industry.
-                            </p>
-                        </div>
+                    <div class=" text-center ">
+                        <h2 class="fw-bolder">Our Vision</h2>
+                        <p class="lead fw-normal text-muted mb-0">
+                            Travsify Global Inc. - Pioneering the Future of Air Travel
+                            <br>
+                            In envisioning the future, Travsify Global stands as a beacon of innovation and transformation in the air and hotel travel industry. Our vision is to continue redefining the landscape of travel supply chains, pushing the boundaries of what's possible, and setting new standards for excellence. We see a future where Travsify Global remains at the forefront, not just as a solution provider but as a driving force shaping the very essence of air travel.
+                            <br>
+                            Advancing with Technology and Innovation
+                            <br>
+                            At the core of our vision is a commitment to advancing technology and fostering innovation. We see Travsify Global not only adapting to the changing technological landscape but leading the charge. We envision a continuous exploration of cutting-edge solutions, ensuring that our Travsify White Label and Plugins evolves with the latest advancements, setting benchmarks for the industry.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -49,41 +46,23 @@
                 </div>
             </section> -->
             <!-- Team members section-->
-            <!-- <section class="py-5 bg-light">
+            <section class="py-5 bg-light">
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="fw-bolder">Our team</h2>
                         <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
                     </div>
-                    <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                        <div class="col mb-5 mb-5 mb-xl-0">
+                    <div class="row gx-5">
+                        <div class="col-md-3 col-sm-12  mb-5 mb-5 mb-xl-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Ibbie Eckart</h5>
+                                <img class="img-fluid mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                                <h5 class="fw-bolder">Patrick Achua</h5>
                                 <div class="fst-italic text-muted">Founder &amp; CEO</div>
                             </div>
                         </div>
-                        <div class="col mb-5 mb-5 mb-xl-0">
-                            <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Arden Vasek</h5>
-                                <div class="fst-italic text-muted">CFO</div>
-                            </div>
-                        </div>
-                        <div class="col mb-5 mb-5 mb-sm-0">
-                            <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Toribio Nerthus</h5>
-                                <div class="fst-italic text-muted">Operations Manager</div>
-                            </div>
-                        </div>
-                        <div class="col mb-5">
-                            <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Malvina Cilla</h5>
-                                <div class="fst-italic text-muted">CTO</div>
-                            </div>
+                        <div class="col-md-9 col-sm-12 ">
+                            Patrick Achua Wealth is a multifaceted professional excelling in the realms of travel, finance technology (Fintech), and DevOps. As a travelpreneur, he navigates the dynamic landscape of the travel industry, bringing a unique blend of entrepreneurial spirit and expertise to the field. In the domain of Fintech, Patrick demonstrates his prowess in leveraging technology to innovate and optimize financial services. Additionally, his proficiency as a DevOps professional underscores his commitment to efficient and collaborative development and operations practices. Patrick Achua Wealth emerges as a versatile individual, seamlessly integrating his skills across diverse domains to contribute to the intersection of travel, finance, and technology.
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
