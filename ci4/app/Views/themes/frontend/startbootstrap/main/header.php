@@ -163,13 +163,13 @@ $settings = session()->get('settings');
                     },
                     {
                         "ID": 4,
-                        "title": "FAQ",
+                        "title": "Products",
                         "showIcon": true,
                         "navigationItems": [{
                             "ID": 1,
                             "buttonlink": {
-                                "label": "Frequently Asked Questions",
-                                "url": "/site/faq",
+                                "label": "Our Products",
+                                "url": "/site/products",
                                 "target": "_self"
                             }
                         }]

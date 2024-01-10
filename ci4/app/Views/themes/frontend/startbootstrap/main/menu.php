@@ -20,7 +20,7 @@ if(file_exists(APPPATH . "Views/menus/Frontend.json")){
                 <li class="nav-item"><a class="nav-link" href="/site/about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/site/contact">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="/site/pricing">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link" href="/site/faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="/site/products">Products</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">

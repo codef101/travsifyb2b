@@ -66,6 +66,14 @@ class Site extends BaseController
         echo view(getenv('theme.frontend.path').'main/footer');
     }
 
+    public function products()
+    {
+        $data = [];
+        echo view(getenv('theme.frontend.path').'main/header');
+        echo view(getenv('theme.frontend.path').'form/products',$data);
+        echo view(getenv('theme.frontend.path').'main/footer');
+    }
+
     public function portfolio_item()
     {
         $data = [];
