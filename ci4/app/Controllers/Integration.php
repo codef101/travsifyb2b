@@ -135,14 +135,14 @@ class Integration extends BaseController
             if($settings['captcha_recovery']??false){
                 if($settings['captcha_gateway'] == 'recaptcha'){
                     if(isset($listPost['g-recaptcha-response'])){
-                        $captcha = $listPost['g-recaptcha-response'];
-                        $url = 'https://www.google.com/recaptcha/api/siteverify?secret='.urlencode($settings['captcha_secret_key']??'').'&response='.urlencode($captcha);
-                        $response = file_get_contents($url);
-                        $responseKeys = json_decode($response,true);
-                        if(!$responseKeys["success"]) {
-                            $session->setFlashdata('toast', ['error',lang("App.login_alert"),lang("App.login_alert_captcha_invalid")]);
-                            return redirect()->to('/login/forgot_password');
-                        }
+                        // $captcha = $listPost['g-recaptcha-response'];
+                        // $url = 'https://www.google.com/recaptcha/api/siteverify?secret='.urlencode($settings['captcha_secret_key']??'').'&response='.urlencode($captcha);
+                        // $response = file_get_contents($url);
+                        // $responseKeys = json_decode($response,true);
+                        // if(!$responseKeys["success"]) {
+                        //     $session->setFlashdata('toast', ['error',lang("App.login_alert"),lang("App.login_alert_captcha_invalid")]);
+                        //     return redirect()->to('/login/forgot_password');
+                        // }
                     }else{
                         $session->setFlashdata('toast', ['error',lang("App.login_alert"),lang("App.login_alert_captcha_not_found")]);
                         return redirect()->to('/login/forgot_password');
