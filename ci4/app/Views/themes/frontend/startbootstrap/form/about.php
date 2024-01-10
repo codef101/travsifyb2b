@@ -10,7 +10,7 @@
                                     <br>
                                     The Travsify White label is a SaaS solution purpose-built for sourcing, selling, and servicing air travel in any channel (direct or indirect). Using TWP, airlines and travel sellers can deliver superior travel offerings and experiences for their customers without the headaches of managing multiple APIs, air sources, servicing challenges, or complex/delayed payment and settlement. The system aggregates, normalises, and optimises global air content – 700+ NDC, GDS, and LCC airlines – and provides a cloud-based solution for selling air and hotel at scale in support of the entire Offer-Order-Settle-Deliver lifecycle.
                                 </p>
-                                <a class="btn btn-primary btn-lg" href="/site/About" style="padding: 2rem; margin-top: 3rem;">Get started</a>
+                                <a class="btn btn-primary btn-lg" href="/site/About" style="padding: 2rem; margin-top: 3rem;height: fit-content">Get started</a>
                             </div>
                         </div>
                     </div>

@@ -14,12 +14,11 @@
 </style>
 <div class="authincation h-100" style="background-image: url('/assets2/images/regimage.jpg'); background-size: cover;">
     <div class="" id="overlay">
-        <div class="container d-flex w-100 h-100 justify-content-center h-100 align-items-center">
+        <div class="container d-flex w-100 h-100 justify-content-center align-items-center">
             <div class="row justify-content-center align-items-start">
                 <div class="d-none d-md-block col-md-6 pt-5">
-                    <h1 class="text-white mx-3">HUB OF THE BEST
-                        AIRFARE DEALS IN THE WORLD</h1>
-                    <p class="fs-3 m-3">Travel technology that provides access to the lowest global airfares from 600+ full service and 180+ low cost airlines, sourced from 70+ point of sale countries on a single platform</p>
+                    <h1 class="text-white mx-3">SELL FLIGHTS & HOTELS GLOBALLY AT YOUR OWN RATE WITH FREE API</h1>
+                    <p class="fs-3 m-3">Sell flights and hotels globally from over 700+ NDC and low cost airlines and over 1.5m hotels with free API and at your own rate. Make revenue unlimitedly with just a company Incorporation.</p>
                 </div>
                 <div class="col-md-6 ">
                     <div class="authincation-content" style="background-color: #0b5cab !important;">
